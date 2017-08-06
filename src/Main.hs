@@ -128,7 +128,7 @@ showMisoIndent _ (MisoText txt) = "text \"" ++ txt ++ "\""
 showMisoIndent indent (MisoElement name attrs elems) =
   name ++ "_ " ++ line ++ showAttrs attrs ++ line ++
   case elems of
-    [] -> ""
+    [] -> "[]"
     m@(MisoText _) : rest -> "[ " ++ showMisoIndent indent m ++ " ]" ++ listIndent (map (showMisoIndent (indent + indent)) rest)
     _ -> "[ " ++ listIndent (map (showMisoIndent (indent + indent)) elems) ++ line ++ "]"
   where
