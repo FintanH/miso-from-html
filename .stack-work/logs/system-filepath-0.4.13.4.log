@@ -1,0 +1,48 @@
+[1 of 2] Compiling Main             ( /private/var/folders/0f/9fzn8f_j5f13h_tq13x6p09r0000gn/T/stack228/system-filepath-0.4.13.4/Setup.hs, /private/var/folders/0f/9fzn8f_j5f13h_tq13x6p09r0000gn/T/stack228/system-filepath-0.4.13.4/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/Main.o )
+
+/private/var/folders/0f/9fzn8f_j5f13h_tq13x6p09r0000gn/T/stack228/system-filepath-0.4.13.4/Setup.hs:7:1: warning: [-Wtabs]
+    Tab character found here, and in 9 further locations.
+    Please use spaces instead.
+[2 of 2] Compiling StackSetupShim   ( /Users/halpenny/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /private/var/folders/0f/9fzn8f_j5f13h_tq13x6p09r0000gn/T/stack228/system-filepath-0.4.13.4/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/StackSetupShim.o )
+Linking /private/var/folders/0f/9fzn8f_j5f13h_tq13x6p09r0000gn/T/stack228/system-filepath-0.4.13.4/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/setup ...
+Configuring system-filepath-0.4.13.4...
+Building system-filepath-0.4.13.4...
+Preprocessing library system-filepath-0.4.13.4...
+[1 of 4] Compiling Filesystem.Path.Internal ( lib/Filesystem/Path/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Filesystem/Path/Internal.o )
+
+lib/Filesystem/Path/Internal.hs:17:1: warning: [-Wunused-imports]
+    The qualified import of ‘Control.Exception’ is redundant
+      except perhaps to import instances from ‘Control.Exception’
+    To import instances alone, use: import Control.Exception()
+
+lib/Filesystem/Path/Internal.hs:26:1: warning: [-Wunused-imports]
+    The import of ‘Data.Text.Encoding.Error’ is redundant
+      except perhaps to import instances from ‘Data.Text.Encoding.Error’
+    To import instances alone, use: import Data.Text.Encoding.Error()
+
+lib/Filesystem/Path/Internal.hs:39:1: warning: [-Wtabs]
+    Tab character found here, and in 170 further locations.
+    Please use spaces instead.
+[2 of 4] Compiling Filesystem.Path  ( lib/Filesystem/Path.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Filesystem/Path.o )
+
+lib/Filesystem/Path.hs:17:1: warning: [-Wtabs]
+    Tab character found here, and in 264 further locations.
+    Please use spaces instead.
+[3 of 4] Compiling Filesystem.Path.Rules ( lib/Filesystem/Path/Rules.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Filesystem/Path/Rules.o )
+
+lib/Filesystem/Path/Rules.hs:10:1: warning: [-Wtabs]
+    Tab character found here, and in 291 further locations.
+    Please use spaces instead.
+[4 of 4] Compiling Filesystem.Path.CurrentOS ( lib/Filesystem/Path/CurrentOS.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Filesystem/Path/CurrentOS.o )
+
+lib/Filesystem/Path/CurrentOS.hs:18:1: warning: [-Wtabs]
+    Tab character found here, and in 23 further locations.
+    Please use spaces instead.
+
+lib/Filesystem/Path/CurrentOS.hs:37:1: warning: [-Wunused-imports]
+    The qualified import of ‘Data.ByteString’ is redundant
+      except perhaps to import instances from ‘Data.ByteString’
+    To import instances alone, use: import Data.ByteString()
+Installing library in
+/Users/halpenny/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/system-filepath-0.4.13.4-1Onr71muBMoJ4AF6FUpTVo
+Registering system-filepath-0.4.13.4...

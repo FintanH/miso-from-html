@@ -1,0 +1,2426 @@
+
+==================== FINAL INTERFACE ====================
+2017-08-06 15:05:39.398589 UTC
+
+interface main@main:Main [family instance module] 8002
+  interface hash: 2f780fed8c9922d1f966c3eb366ec3e3
+  ABI hash: 30b98434a3d93e50deb9f7a516ddaf9b
+  export-list hash: 5a4c51c39d2769c76c37338d74eab5a8
+  orphan hash: 1c4ddffebdd3e0f91e70ed669c10c90f
+  flag hash: a490764737440864adb1c0b238d52744
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.cleanup
+  Main.main
+  Main.showMiso
+  Main.showMisoIndent
+  Main.tagToMiso
+  Main.toMisoFile
+  Main.Indent
+  Main.Miso{Main.MisoElement Main.MisoText}
+  Main.MisoAttribute{Main.MisoAttribute}
+  Main.Options{Main.Options indent inputFile outputFile}
+module dependencies:
+package dependencies: Only-0.1@Only-0.1-1dkiXHtbc8zGqo2Q6b73I6
+                      ansi-terminal-0.6.3.1@ansi-terminal-0.6.3.1-3RTqikoQf47ajVD9m8zgB
+                      ansi-wl-pprint-0.6.7.3@ansi-wl-pprint-0.6.7.3-A79v826bgPr574HtaZPPqC
+                      array-0.5.1.1@array-0.5.1.1 base-4.9.1.0*
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+                      optparse-applicative-0.13.2.0@optparse-applicative-0.13.2.0-EqIYOWOFTvf23sT5QTYn9U
+                      optparse-generic-1.2.2@optparse-generic-1.2.2-2kFo9e3feGfSo8u45LVou
+                      process-1.4.3.0@process-1.4.3.0
+                      system-filepath-0.4.13.4@system-filepath-0.4.13.4-1Onr71muBMoJ4AF6FUpTVo
+                      tagsoup-0.14.1@tagsoup-0.14.1-HO0sHb651BeFnnIxljlexR
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      time-1.6.0.1@time-1.6.0.1 transformers-0.5.2.0@transformers-0.5.2.0
+                      unix-2.7.2.1@unix-2.7.2.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         system-filepath-0.4.13.4@system-filepath-0.4.13.4-1Onr71muBMoJ4AF6FUpTVo:Filesystem.Path
+         system-filepath-0.4.13.4@system-filepath-0.4.13.4-1Onr71muBMoJ4AF6FUpTVo:Filesystem.Path.CurrentOS
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+family instance modules: Only-0.1@Only-0.1-1dkiXHtbc8zGqo2Q6b73I6:Data.Tuple.Only
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Functor.Identity base-4.9.1.0:Data.List.NonEmpty
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Semigroup
+                         base-4.9.1.0:Data.Type.Equality base-4.9.1.0:Data.Version
+                         base-4.9.1.0:Data.Void base-4.9.1.0:GHC.Exts
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         optparse-generic-1.2.2@optparse-generic-1.2.2-2kFo9e3feGfSo8u45LVou:Options.Generic
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.Functor 5ab1dc703df5b482e77efb697833ca3c
+import  -/  base-4.9.1.0:Data.List 07ae2acca6538aa0800bd0a993ac6ac1
+import  -/  base-4.9.1.0:Data.Maybe d876c4ffe4b3c43755a781e8ad860d88
+import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
+import  -/  base-4.9.1.0:GHC.IO eb504c57b397cf133849f8586f15dafb
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:System.IO c9de64c5f5407c4cf1c52500c4d15200
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  optparse-generic-1.2.2@optparse-generic-1.2.2-2kFo9e3feGfSo8u45LVou:Options.Generic 7c4cbc78c81dd00faf58d37803fbbc1f
+import  -/  tagsoup-0.14.1@tagsoup-0.14.1-HO0sHb651BeFnnIxljlexR:Text.HTML.TagSoup b7afe6705c0a75b92abd020eee4de445
+import  -/  tagsoup-0.14.1@tagsoup-0.14.1-HO0sHb651BeFnnIxljlexR:Text.HTML.TagSoup.Parser bc6ec4f8040b780a8e9b004063f4a855
+import  -/  tagsoup-0.14.1@tagsoup-0.14.1-HO0sHb651BeFnnIxljlexR:Text.HTML.TagSoup.Type 2ed0076b0532d3729ee80c72716f8001
+ea8aa51040c807f6095ac10d3a3a8045
+  $fGenericOptions :: GHC.Generics.Generic Main.Options
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Options
+                  Main.$fGenericOptions_$cfrom
+                  Main.$fGenericOptions_$cto -}
+ea8aa51040c807f6095ac10d3a3a8045
+  $fGenericOptions1 ::
+    Main.Options
+    -> GHC.Generics.M1
+         GHC.Generics.C
+         ('GHC.Generics.MetaCons
+            "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+         (GHC.Generics.M1
+            GHC.Generics.S
+            ('GHC.Generics.MetaSel
+               ('GHC.Base.Just "indent")
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe GHC.Types.Int))
+          GHC.Generics.:*: (GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "inputFile")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.K1 GHC.Generics.R GHC.IO.FilePath)
+                            GHC.Generics.:*: GHC.Generics.M1
+                                               GHC.Generics.S
+                                               ('GHC.Generics.MetaSel
+                                                  ('GHC.Base.Just "outputFile")
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.K1
+                                                  GHC.Generics.R (GHC.Base.Maybe GHC.IO.FilePath))))
+         x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (x1 :: Main.Options) ->
+                 case x1 of wild { Main.Options g1 g2 g3 ->
+                 (GHC.Generics.:*:
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "indent")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe GHC.Types.Int)))
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "inputFile")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R GHC.IO.FilePath)
+                       GHC.Generics.:*: GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "outputFile")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.K1
+                                             GHC.Generics.R (GHC.Base.Maybe GHC.IO.FilePath)))
+                    @ x
+                    g1
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.N:K1[0]
+                                   <GHC.Generics.R>_P <GHC.Base.Maybe GHC.Types.Int>_R <x>_P))
+                         (Sym (GHC.Generics.N:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <'GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "indent")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy>_P
+                                   <GHC.Generics.K1
+                                      GHC.Generics.R (GHC.Base.Maybe GHC.Types.Int)>_R) <x>_N))
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            ('GHC.Generics.MetaSel
+                               ('GHC.Base.Just "inputFile")
+                               'GHC.Generics.NoSourceUnpackedness
+                               'GHC.Generics.NoSourceStrictness
+                               'GHC.Generics.DecidedLazy)
+                            (GHC.Generics.K1 GHC.Generics.R GHC.IO.FilePath))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            ('GHC.Generics.MetaSel
+                               ('GHC.Base.Just "outputFile")
+                               'GHC.Generics.NoSourceUnpackedness
+                               'GHC.Generics.NoSourceStrictness
+                               'GHC.Generics.DecidedLazy)
+                            (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe GHC.IO.FilePath)))
+                       @ x
+                       g2
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.N:K1[0]
+                                      <GHC.Generics.R>_P <GHC.IO.FilePath>_R <x>_P))
+                            (Sym (GHC.Generics.N:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <'GHC.Generics.MetaSel
+                                         ('GHC.Base.Just "inputFile")
+                                         'GHC.Generics.NoSourceUnpackedness
+                                         'GHC.Generics.NoSourceStrictness
+                                         'GHC.Generics.DecidedLazy>_P
+                                      <GHC.Generics.K1 GHC.Generics.R GHC.IO.FilePath>_R) <x>_N))
+                       g3
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.N:K1[0]
+                                      <GHC.Generics.R>_P <GHC.Base.Maybe GHC.IO.FilePath>_R <x>_P))
+                            (Sym (GHC.Generics.N:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <'GHC.Generics.MetaSel
+                                         ('GHC.Base.Just "outputFile")
+                                         'GHC.Generics.NoSourceUnpackedness
+                                         'GHC.Generics.NoSourceStrictness
+                                         'GHC.Generics.DecidedLazy>_P
+                                      <GHC.Generics.K1
+                                         GHC.Generics.R
+                                         (GHC.Base.Maybe GHC.IO.FilePath)>_R) <x>_N))))
+                   `cast`
+                 (Sym (GHC.Generics.N:M1[0]
+                           <GHC.Generics.C>_P
+                           <'GHC.Generics.MetaCons
+                              "Options" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                           <GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "indent")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.K1 GHC.Generics.R (GHC.Base.Maybe GHC.Types.Int))
+                            GHC.Generics.:*: (GHC.Generics.M1
+                                                GHC.Generics.S
+                                                ('GHC.Generics.MetaSel
+                                                   ('GHC.Base.Just "inputFile")
+                                                   'GHC.Generics.NoSourceUnpackedness
+                                                   'GHC.Generics.NoSourceStrictness
+                                                   'GHC.Generics.DecidedLazy)
+                                                (GHC.Generics.K1 GHC.Generics.R GHC.IO.FilePath)
+                                              GHC.Generics.:*: GHC.Generics.M1
+                                                                 GHC.Generics.S
+                                                                 ('GHC.Generics.MetaSel
+                                                                    ('GHC.Base.Just "outputFile")
+                                                                    'GHC.Generics.NoSourceUnpackedness
+                                                                    'GHC.Generics.NoSourceStrictness
+                                                                    'GHC.Generics.DecidedLazy)
+                                                                 (GHC.Generics.K1
+                                                                    GHC.Generics.R
+                                                                    (GHC.Base.Maybe
+                                                                       GHC.IO.FilePath)))>_R) <x>_N) }) -}
+ea8aa51040c807f6095ac10d3a3a8045
+  $fGenericOptions_$cfrom ::
+    Main.Options -> GHC.Generics.Rep Main.Options x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fGenericOptions1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Main.Options>_R
+                 ->_R Trans
+                          (Sym (GHC.Generics.N:M1[0]
+                                    <GHC.Generics.D>_P
+                                    <'GHC.Generics.MetaData
+                                       "Options" "Main" "main" 'GHC.Types.False>_P
+                                    <GHC.Generics.M1
+                                       GHC.Generics.C
+                                       ('GHC.Generics.MetaCons
+                                          "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                       (GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "indent")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.K1
+                                             GHC.Generics.R (GHC.Base.Maybe GHC.Types.Int))
+                                        GHC.Generics.:*: (GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            ('GHC.Generics.MetaSel
+                                                               ('GHC.Base.Just "inputFile")
+                                                               'GHC.Generics.NoSourceUnpackedness
+                                                               'GHC.Generics.NoSourceStrictness
+                                                               'GHC.Generics.DecidedLazy)
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R GHC.IO.FilePath)
+                                                          GHC.Generics.:*: GHC.Generics.M1
+                                                                             GHC.Generics.S
+                                                                             ('GHC.Generics.MetaSel
+                                                                                ('GHC.Base.Just
+                                                                                   "outputFile")
+                                                                                'GHC.Generics.NoSourceUnpackedness
+                                                                                'GHC.Generics.NoSourceStrictness
+                                                                                'GHC.Generics.DecidedLazy)
+                                                                             (GHC.Generics.K1
+                                                                                GHC.Generics.R
+                                                                                (GHC.Base.Maybe
+                                                                                   GHC.IO.FilePath))))>_R))
+                          (Sub (Sym (Main.Rep_Options[0]))) <x>_N) -}
+ea8aa51040c807f6095ac10d3a3a8045
+  $fGenericOptions_$cto ::
+    GHC.Generics.Rep Main.Options x -> Main.Options
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(U,1*U(U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (ds :: GHC.Generics.Rep Main.Options x) ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (Main.Rep_Options[0]))
+                           (Trans
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <'GHC.Generics.MetaData
+                                        "Options" "Main" "main" 'GHC.Types.False>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        ('GHC.Generics.MetaCons
+                                           "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                        (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           ('GHC.Generics.MetaSel
+                                              ('GHC.Base.Just "indent")
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.K1
+                                              GHC.Generics.R (GHC.Base.Maybe GHC.Types.Int))
+                                         GHC.Generics.:*: (GHC.Generics.M1
+                                                             GHC.Generics.S
+                                                             ('GHC.Generics.MetaSel
+                                                                ('GHC.Base.Just "inputFile")
+                                                                'GHC.Generics.NoSourceUnpackedness
+                                                                'GHC.Generics.NoSourceStrictness
+                                                                'GHC.Generics.DecidedLazy)
+                                                             (GHC.Generics.K1
+                                                                GHC.Generics.R GHC.IO.FilePath)
+                                                           GHC.Generics.:*: GHC.Generics.M1
+                                                                              GHC.Generics.S
+                                                                              ('GHC.Generics.MetaSel
+                                                                                 ('GHC.Base.Just
+                                                                                    "outputFile")
+                                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                                 'GHC.Generics.NoSourceStrictness
+                                                                                 'GHC.Generics.DecidedLazy)
+                                                                              (GHC.Generics.K1
+                                                                                 GHC.Generics.R
+                                                                                 (GHC.Base.Maybe
+                                                                                    GHC.IO.FilePath))))>_R)
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <'GHC.Generics.MetaCons
+                                        "Options" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.S
+                                        ('GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "indent")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy)
+                                        (GHC.Generics.K1
+                                           GHC.Generics.R (GHC.Base.Maybe GHC.Types.Int))
+                                      GHC.Generics.:*: (GHC.Generics.M1
+                                                          GHC.Generics.S
+                                                          ('GHC.Generics.MetaSel
+                                                             ('GHC.Base.Just "inputFile")
+                                                             'GHC.Generics.NoSourceUnpackedness
+                                                             'GHC.Generics.NoSourceStrictness
+                                                             'GHC.Generics.DecidedLazy)
+                                                          (GHC.Generics.K1
+                                                             GHC.Generics.R GHC.IO.FilePath)
+                                                        GHC.Generics.:*: GHC.Generics.M1
+                                                                           GHC.Generics.S
+                                                                           ('GHC.Generics.MetaSel
+                                                                              ('GHC.Base.Just
+                                                                                 "outputFile")
+                                                                              'GHC.Generics.NoSourceUnpackedness
+                                                                              'GHC.Generics.NoSourceStrictness
+                                                                              'GHC.Generics.DecidedLazy)
+                                                                           (GHC.Generics.K1
+                                                                              GHC.Generics.R
+                                                                              (GHC.Base.Maybe
+                                                                                 GHC.IO.FilePath)))>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 case ds2 of wild1 { GHC.Generics.:*: ds3 ds4 ->
+                 Main.Options
+                   ds1
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "indent")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Types.Int)>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.Maybe GHC.Types.Int>_R <x>_P))
+                   ds3
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "inputFile")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.IO.FilePath>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <GHC.IO.FilePath>_R <x>_P))
+                   ds4
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "outputFile")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.IO.FilePath)>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.IO.FilePath>_R
+                             <x>_P)) } }) -}
+ea8aa51040c807f6095ac10d3a3a8045
+  $fParseRecordOptions :: Options.Generic.ParseRecord Main.Options
+  DFunId
+  {- Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fParseRecordOptions_$s$dmparseRecord
+                  `cast`
+                (Sym (Options.Generic.N:ParseRecord[0]) <Main.Options>_N) -}
+cfad14cf72c19931152684c340370768
+  $fParseRecordOptions1 ::
+    Options.Generic.GenericParseRecord
+      (GHC.Generics.D1
+         ('GHC.Generics.MetaData "Options" "Main" "main" 'GHC.Types.False)
+         (GHC.Generics.C1
+            ('GHC.Generics.MetaCons
+               "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+            (GHC.Generics.S1
+               ('GHC.Generics.MetaSel
+                  ('GHC.Base.Just "indent")
+                  'GHC.Generics.NoSourceUnpackedness
+                  'GHC.Generics.NoSourceStrictness
+                  'GHC.Generics.DecidedLazy)
+               (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+             GHC.Generics.:*: (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "inputFile")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 GHC.IO.FilePath)
+                               GHC.Generics.:*: GHC.Generics.S1
+                                                  ('GHC.Generics.MetaSel
+                                                     ('GHC.Base.Just "outputFile")
+                                                     'GHC.Generics.NoSourceUnpackedness
+                                                     'GHC.Generics.NoSourceStrictness
+                                                     'GHC.Generics.DecidedLazy)
+                                                  (GHC.Generics.Rec0
+                                                     (GHC.Base.Maybe GHC.IO.FilePath))))))
+  {- Arity: 1, Strictness: <L,U(C(U),A,C(U))>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fParseRecordOptions2
+                  `cast`
+                (Sym (Options.Generic.N:GenericParseRecord[0]
+                          <GHC.Generics.M1
+                             GHC.Generics.D
+                             ('GHC.Generics.MetaData "Options" "Main" "main" 'GHC.Types.False)
+                             (GHC.Generics.M1
+                                GHC.Generics.C
+                                ('GHC.Generics.MetaCons
+                                   "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                (GHC.Generics.S1
+                                   ('GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "indent")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy)
+                                   (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                                 GHC.Generics.:*: (GHC.Generics.S1
+                                                     ('GHC.Generics.MetaSel
+                                                        ('GHC.Base.Just "inputFile")
+                                                        'GHC.Generics.NoSourceUnpackedness
+                                                        'GHC.Generics.NoSourceStrictness
+                                                        'GHC.Generics.DecidedLazy)
+                                                     (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                                   GHC.Generics.:*: GHC.Generics.S1
+                                                                      ('GHC.Generics.MetaSel
+                                                                         ('GHC.Base.Just
+                                                                            "outputFile")
+                                                                         'GHC.Generics.NoSourceUnpackedness
+                                                                         'GHC.Generics.NoSourceStrictness
+                                                                         'GHC.Generics.DecidedLazy)
+                                                                      (GHC.Generics.Rec0
+                                                                         (GHC.Base.Maybe
+                                                                            GHC.IO.FilePath)))))>_N)) -}
+16cf5af5b7502d7f4dca34b0f05fa8da
+  $fParseRecordOptions10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "inputFile"#) -}
+2dec4887f440e8bba37c38624ae2ade8
+  $fParseRecordOptions11 ::
+    GHC.Generics.SingI ('GHC.Base.Just "indent")
+  {- Unfolding: InlineRule (0, True, True)
+                Main.$fParseRecordOptions12
+                  `cast`
+                (Trans
+                     (Sym (GHC.Generics.D:R:SingMaybeb0[0] <GHC.Types.Symbol>_N))
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Base.Maybe
+                                                       GHC.Types.Symbol>_N) <'GHC.Base.Just
+                                                                               "indent">_N) -}
+e0beaa288f36c3138c8ed506a991bd3d
+  $fParseRecordOptions12 ::
+    GHC.Generics.R:SingMaybeb
+      GHC.Types.Symbol ('GHC.Base.Just "indent")
+  {- Unfolding: (GHC.Generics.SJust
+                   @ GHC.Types.Symbol
+                   @ ('GHC.Base.Just "indent")
+                   @ "indent"
+                   @~ <'GHC.Base.Just "indent">_N
+                   Main.$fParseRecordOptions13
+                     `cast`
+                   (Sym (GHC.Generics.D:R:SingSymbols0[0]) <"indent">_N)) -}
+3cd21643aab5a918c2555d06565f32eb
+  $fParseRecordOptions13 :: GHC.Generics.R:SingSymbols "indent"
+  {- Strictness: m,
+     Unfolding: (GHC.Generics.SSym
+                   @ "indent"
+                   Main.$fParseRecordOptions14
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"indent">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"indent">_N))) -}
+fad54e41a04828bd8e61290434d66222
+  $fParseRecordOptions14 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "indent"#) -}
+673d6a38a7e126c66e4930f9030164d0
+  $fParseRecordOptions2 ::
+    Options.Generic.Modifiers
+    -> Options.Applicative.Types.Parser
+         (GHC.Generics.M1
+            GHC.Generics.D
+            ('GHC.Generics.MetaData "Options" "Main" "main" 'GHC.Types.False)
+            (GHC.Generics.M1
+               GHC.Generics.C
+               ('GHC.Generics.MetaCons
+                  "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "indent")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                GHC.Generics.:*: (GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "inputFile")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                  GHC.Generics.:*: GHC.Generics.S1
+                                                     ('GHC.Generics.MetaSel
+                                                        ('GHC.Base.Just "outputFile")
+                                                        'GHC.Generics.NoSourceUnpackedness
+                                                        'GHC.Generics.NoSourceStrictness
+                                                        'GHC.Generics.DecidedLazy)
+                                                     (GHC.Generics.Rec0
+                                                        (GHC.Base.Maybe GHC.IO.FilePath)))))
+            p)
+  {- Arity: 1, Strictness: <L,U(C(U),A,C(U))>,
+     Unfolding: (\ @ p (mods :: Options.Generic.Modifiers) ->
+                 Options.Applicative.Types.$fApplicativeParser_$cfmap
+                   @ (GHC.Generics.M1
+                        GHC.Generics.C
+                        ('GHC.Generics.MetaCons
+                           "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                        (GHC.Generics.S1
+                           ('GHC.Generics.MetaSel
+                              ('GHC.Base.Just "indent")
+                              'GHC.Generics.NoSourceUnpackedness
+                              'GHC.Generics.NoSourceStrictness
+                              'GHC.Generics.DecidedLazy)
+                           (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                         GHC.Generics.:*: (GHC.Generics.S1
+                                             ('GHC.Generics.MetaSel
+                                                ('GHC.Base.Just "inputFile")
+                                                'GHC.Generics.NoSourceUnpackedness
+                                                'GHC.Generics.NoSourceStrictness
+                                                'GHC.Generics.DecidedLazy)
+                                             (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                           GHC.Generics.:*: GHC.Generics.S1
+                                                              ('GHC.Generics.MetaSel
+                                                                 ('GHC.Base.Just "outputFile")
+                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                 'GHC.Generics.NoSourceStrictness
+                                                                 'GHC.Generics.DecidedLazy)
+                                                              (GHC.Generics.Rec0
+                                                                 (GHC.Base.Maybe GHC.IO.FilePath))))
+                        p)
+                   @ (GHC.Generics.M1
+                        GHC.Generics.D
+                        ('GHC.Generics.MetaData "Options" "Main" "main" 'GHC.Types.False)
+                        (GHC.Generics.M1
+                           GHC.Generics.C
+                           ('GHC.Generics.MetaCons
+                              "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                           (GHC.Generics.S1
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "indent")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                            GHC.Generics.:*: (GHC.Generics.S1
+                                                ('GHC.Generics.MetaSel
+                                                   ('GHC.Base.Just "inputFile")
+                                                   'GHC.Generics.NoSourceUnpackedness
+                                                   'GHC.Generics.NoSourceStrictness
+                                                   'GHC.Generics.DecidedLazy)
+                                                (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                              GHC.Generics.:*: GHC.Generics.S1
+                                                                 ('GHC.Generics.MetaSel
+                                                                    ('GHC.Base.Just "outputFile")
+                                                                    'GHC.Generics.NoSourceUnpackedness
+                                                                    'GHC.Generics.NoSourceStrictness
+                                                                    'GHC.Generics.DecidedLazy)
+                                                                 (GHC.Generics.Rec0
+                                                                    (GHC.Base.Maybe
+                                                                       GHC.IO.FilePath)))))
+                        p)
+                   (Options.Generic.$fGenericParseRecordM2
+                      @ (GHC.Generics.M1
+                           GHC.Generics.C
+                           ('GHC.Generics.MetaCons
+                              "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                           (GHC.Generics.S1
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "indent")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                            GHC.Generics.:*: (GHC.Generics.S1
+                                                ('GHC.Generics.MetaSel
+                                                   ('GHC.Base.Just "inputFile")
+                                                   'GHC.Generics.NoSourceUnpackedness
+                                                   'GHC.Generics.NoSourceStrictness
+                                                   'GHC.Generics.DecidedLazy)
+                                                (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                              GHC.Generics.:*: GHC.Generics.S1
+                                                                 ('GHC.Generics.MetaSel
+                                                                    ('GHC.Base.Just "outputFile")
+                                                                    'GHC.Generics.NoSourceUnpackedness
+                                                                    'GHC.Generics.NoSourceStrictness
+                                                                    'GHC.Generics.DecidedLazy)
+                                                                 (GHC.Generics.Rec0
+                                                                    (GHC.Base.Maybe
+                                                                       GHC.IO.FilePath)))))
+                      @ p)
+                     `cast`
+                   (<GHC.Generics.M1
+                       GHC.Generics.C
+                       ('GHC.Generics.MetaCons
+                          "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                       (GHC.Generics.S1
+                          ('GHC.Generics.MetaSel
+                             ('GHC.Base.Just "indent")
+                             'GHC.Generics.NoSourceUnpackedness
+                             'GHC.Generics.NoSourceStrictness
+                             'GHC.Generics.DecidedLazy)
+                          (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                        GHC.Generics.:*: (GHC.Generics.S1
+                                            ('GHC.Generics.MetaSel
+                                               ('GHC.Base.Just "inputFile")
+                                               'GHC.Generics.NoSourceUnpackedness
+                                               'GHC.Generics.NoSourceStrictness
+                                               'GHC.Generics.DecidedLazy)
+                                            (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                          GHC.Generics.:*: GHC.Generics.S1
+                                                             ('GHC.Generics.MetaSel
+                                                                ('GHC.Base.Just "outputFile")
+                                                                'GHC.Generics.NoSourceUnpackedness
+                                                                'GHC.Generics.NoSourceStrictness
+                                                                'GHC.Generics.DecidedLazy)
+                                                             (GHC.Generics.Rec0
+                                                                (GHC.Base.Maybe GHC.IO.FilePath))))
+                       p>_R
+                    ->_R Sym (GHC.Generics.N:M1[0]
+                                  <GHC.Generics.D>_P
+                                  <'GHC.Generics.MetaData
+                                     "Options" "Main" "main" 'GHC.Types.False>_P
+                                  <GHC.Generics.M1
+                                     GHC.Generics.C
+                                     ('GHC.Generics.MetaCons
+                                        "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                     (GHC.Generics.S1
+                                        ('GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "indent")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy)
+                                        (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                                      GHC.Generics.:*: (GHC.Generics.S1
+                                                          ('GHC.Generics.MetaSel
+                                                             ('GHC.Base.Just "inputFile")
+                                                             'GHC.Generics.NoSourceUnpackedness
+                                                             'GHC.Generics.NoSourceStrictness
+                                                             'GHC.Generics.DecidedLazy)
+                                                          (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                                        GHC.Generics.:*: GHC.Generics.S1
+                                                                           ('GHC.Generics.MetaSel
+                                                                              ('GHC.Base.Just
+                                                                                 "outputFile")
+                                                                              'GHC.Generics.NoSourceUnpackedness
+                                                                              'GHC.Generics.NoSourceStrictness
+                                                                              'GHC.Generics.DecidedLazy)
+                                                                           (GHC.Generics.Rec0
+                                                                              (GHC.Base.Maybe
+                                                                                 GHC.IO.FilePath))))>_R) <p>_N)
+                   (Options.Applicative.Types.MultP
+                      @ (GHC.Generics.M1
+                           GHC.Generics.C
+                           ('GHC.Generics.MetaCons
+                              "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                           (GHC.Generics.S1
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "indent")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                            GHC.Generics.:*: (GHC.Generics.S1
+                                                ('GHC.Generics.MetaSel
+                                                   ('GHC.Base.Just "inputFile")
+                                                   'GHC.Generics.NoSourceUnpackedness
+                                                   'GHC.Generics.NoSourceStrictness
+                                                   'GHC.Generics.DecidedLazy)
+                                                (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                              GHC.Generics.:*: GHC.Generics.S1
+                                                                 ('GHC.Generics.MetaSel
+                                                                    ('GHC.Base.Just "outputFile")
+                                                                    'GHC.Generics.NoSourceUnpackedness
+                                                                    'GHC.Generics.NoSourceStrictness
+                                                                    'GHC.Generics.DecidedLazy)
+                                                                 (GHC.Generics.Rec0
+                                                                    (GHC.Base.Maybe
+                                                                       GHC.IO.FilePath))))
+                           p)
+                      @ (GHC.Generics.M1
+                           GHC.Generics.C
+                           ('GHC.Generics.MetaCons
+                              "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                           (GHC.Generics.S1
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "indent")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                            GHC.Generics.:*: (GHC.Generics.S1
+                                                ('GHC.Generics.MetaSel
+                                                   ('GHC.Base.Just "inputFile")
+                                                   'GHC.Generics.NoSourceUnpackedness
+                                                   'GHC.Generics.NoSourceStrictness
+                                                   'GHC.Generics.DecidedLazy)
+                                                (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                              GHC.Generics.:*: GHC.Generics.S1
+                                                                 ('GHC.Generics.MetaSel
+                                                                    ('GHC.Base.Just "outputFile")
+                                                                    'GHC.Generics.NoSourceUnpackedness
+                                                                    'GHC.Generics.NoSourceStrictness
+                                                                    'GHC.Generics.DecidedLazy)
+                                                                 (GHC.Generics.Rec0
+                                                                    (GHC.Base.Maybe
+                                                                       GHC.IO.FilePath))))
+                           p)
+                      (Options.Applicative.Extra.helper
+                         @ (GHC.Generics.M1
+                              GHC.Generics.C
+                              ('GHC.Generics.MetaCons
+                                 "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                              (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "indent")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                               GHC.Generics.:*: (GHC.Generics.S1
+                                                   ('GHC.Generics.MetaSel
+                                                      ('GHC.Base.Just "inputFile")
+                                                      'GHC.Generics.NoSourceUnpackedness
+                                                      'GHC.Generics.NoSourceStrictness
+                                                      'GHC.Generics.DecidedLazy)
+                                                   (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                                 GHC.Generics.:*: GHC.Generics.S1
+                                                                    ('GHC.Generics.MetaSel
+                                                                       ('GHC.Base.Just "outputFile")
+                                                                       'GHC.Generics.NoSourceUnpackedness
+                                                                       'GHC.Generics.NoSourceStrictness
+                                                                       'GHC.Generics.DecidedLazy)
+                                                                    (GHC.Generics.Rec0
+                                                                       (GHC.Base.Maybe
+                                                                          GHC.IO.FilePath))))
+                              p))
+                      (Options.Applicative.Types.$fApplicativeParser_$cfmap
+                         @ ((GHC.Generics.:*:)
+                              (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "indent")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int)))
+                              (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "inputFile")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 GHC.IO.FilePath)
+                               GHC.Generics.:*: GHC.Generics.S1
+                                                  ('GHC.Generics.MetaSel
+                                                     ('GHC.Base.Just "outputFile")
+                                                     'GHC.Generics.NoSourceUnpackedness
+                                                     'GHC.Generics.NoSourceStrictness
+                                                     'GHC.Generics.DecidedLazy)
+                                                  (GHC.Generics.Rec0
+                                                     (GHC.Base.Maybe GHC.IO.FilePath)))
+                              p)
+                         @ (GHC.Generics.M1
+                              GHC.Generics.C
+                              ('GHC.Generics.MetaCons
+                                 "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                              (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "indent")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                               GHC.Generics.:*: (GHC.Generics.S1
+                                                   ('GHC.Generics.MetaSel
+                                                      ('GHC.Base.Just "inputFile")
+                                                      'GHC.Generics.NoSourceUnpackedness
+                                                      'GHC.Generics.NoSourceStrictness
+                                                      'GHC.Generics.DecidedLazy)
+                                                   (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                                 GHC.Generics.:*: GHC.Generics.S1
+                                                                    ('GHC.Generics.MetaSel
+                                                                       ('GHC.Base.Just "outputFile")
+                                                                       'GHC.Generics.NoSourceUnpackedness
+                                                                       'GHC.Generics.NoSourceStrictness
+                                                                       'GHC.Generics.DecidedLazy)
+                                                                    (GHC.Generics.Rec0
+                                                                       (GHC.Base.Maybe
+                                                                          GHC.IO.FilePath))))
+                              p)
+                         (Options.Generic.$fGenericParseRecordM2
+                            @ (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "indent")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                               GHC.Generics.:*: (GHC.Generics.S1
+                                                   ('GHC.Generics.MetaSel
+                                                      ('GHC.Base.Just "inputFile")
+                                                      'GHC.Generics.NoSourceUnpackedness
+                                                      'GHC.Generics.NoSourceStrictness
+                                                      'GHC.Generics.DecidedLazy)
+                                                   (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                                 GHC.Generics.:*: GHC.Generics.S1
+                                                                    ('GHC.Generics.MetaSel
+                                                                       ('GHC.Base.Just "outputFile")
+                                                                       'GHC.Generics.NoSourceUnpackedness
+                                                                       'GHC.Generics.NoSourceStrictness
+                                                                       'GHC.Generics.DecidedLazy)
+                                                                    (GHC.Generics.Rec0
+                                                                       (GHC.Base.Maybe
+                                                                          GHC.IO.FilePath))))
+                            @ p)
+                           `cast`
+                         (<(GHC.Generics.:*:)
+                             (GHC.Generics.S1
+                                ('GHC.Generics.MetaSel
+                                   ('GHC.Base.Just "indent")
+                                   'GHC.Generics.NoSourceUnpackedness
+                                   'GHC.Generics.NoSourceStrictness
+                                   'GHC.Generics.DecidedLazy)
+                                (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int)))
+                             (GHC.Generics.S1
+                                ('GHC.Generics.MetaSel
+                                   ('GHC.Base.Just "inputFile")
+                                   'GHC.Generics.NoSourceUnpackedness
+                                   'GHC.Generics.NoSourceStrictness
+                                   'GHC.Generics.DecidedLazy)
+                                (GHC.Generics.Rec0 GHC.IO.FilePath)
+                              GHC.Generics.:*: GHC.Generics.S1
+                                                 ('GHC.Generics.MetaSel
+                                                    ('GHC.Base.Just "outputFile")
+                                                    'GHC.Generics.NoSourceUnpackedness
+                                                    'GHC.Generics.NoSourceStrictness
+                                                    'GHC.Generics.DecidedLazy)
+                                                 (GHC.Generics.Rec0
+                                                    (GHC.Base.Maybe GHC.IO.FilePath)))
+                             p>_R
+                          ->_R Sym (GHC.Generics.N:M1[0]
+                                        <GHC.Generics.C>_P
+                                        <'GHC.Generics.MetaCons
+                                           "Options" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                                        <GHC.Generics.S1
+                                           ('GHC.Generics.MetaSel
+                                              ('GHC.Base.Just "indent")
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                                         GHC.Generics.:*: (GHC.Generics.S1
+                                                             ('GHC.Generics.MetaSel
+                                                                ('GHC.Base.Just "inputFile")
+                                                                'GHC.Generics.NoSourceUnpackedness
+                                                                'GHC.Generics.NoSourceStrictness
+                                                                'GHC.Generics.DecidedLazy)
+                                                             (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                                           GHC.Generics.:*: GHC.Generics.S1
+                                                                              ('GHC.Generics.MetaSel
+                                                                                 ('GHC.Base.Just
+                                                                                    "outputFile")
+                                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                                 'GHC.Generics.NoSourceStrictness
+                                                                                 'GHC.Generics.DecidedLazy)
+                                                                              (GHC.Generics.Rec0
+                                                                                 (GHC.Base.Maybe
+                                                                                    GHC.IO.FilePath)))>_R) <p>_N)
+                         (Options.Applicative.Types.MultP
+                            @ ((GHC.Generics.:*:)
+                                 (GHC.Generics.M1
+                                    GHC.Generics.S
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "indent")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int)))
+                                 (GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "inputFile")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                  GHC.Generics.:*: GHC.Generics.S1
+                                                     ('GHC.Generics.MetaSel
+                                                        ('GHC.Base.Just "outputFile")
+                                                        'GHC.Generics.NoSourceUnpackedness
+                                                        'GHC.Generics.NoSourceStrictness
+                                                        'GHC.Generics.DecidedLazy)
+                                                     (GHC.Generics.Rec0
+                                                        (GHC.Base.Maybe GHC.IO.FilePath)))
+                                 p)
+                            @ ((GHC.Generics.:*:)
+                                 (GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "inputFile")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 GHC.IO.FilePath))
+                                 (GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "outputFile")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.IO.FilePath)))
+                                 p)
+                            (case mods of ww { Options.Generic.Modifiers ww1 ww2 ww3 ->
+                             Options.Applicative.Types.$fApplicativeParser_$cfmap
+                               @ (GHC.Generics.M1
+                                    GHC.Generics.S
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "indent")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                                    p)
+                               @ ((GHC.Generics.:*:)
+                                    (GHC.Generics.S1
+                                       ('GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "inputFile")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy)
+                                       (GHC.Generics.Rec0 GHC.IO.FilePath))
+                                    (GHC.Generics.S1
+                                       ('GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "outputFile")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy)
+                                       (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.IO.FilePath)))
+                                    p
+                                  -> (GHC.Generics.:*:)
+                                       (GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "indent")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int)))
+                                       (GHC.Generics.S1
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "inputFile")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                        GHC.Generics.:*: GHC.Generics.S1
+                                                           ('GHC.Generics.MetaSel
+                                                              ('GHC.Base.Just "outputFile")
+                                                              'GHC.Generics.NoSourceUnpackedness
+                                                              'GHC.Generics.NoSourceStrictness
+                                                              'GHC.Generics.DecidedLazy)
+                                                           (GHC.Generics.Rec0
+                                                              (GHC.Base.Maybe GHC.IO.FilePath)))
+                                       p)
+                               (GHC.Generics.:*:
+                                  @ (GHC.Generics.M1
+                                       GHC.Generics.S
+                                       ('GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "indent")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy)
+                                       (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int)))
+                                  @ (GHC.Generics.S1
+                                       ('GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "inputFile")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy)
+                                       (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                     GHC.Generics.:*: GHC.Generics.S1
+                                                        ('GHC.Generics.MetaSel
+                                                           ('GHC.Base.Just "outputFile")
+                                                           'GHC.Generics.NoSourceUnpackedness
+                                                           'GHC.Generics.NoSourceStrictness
+                                                           'GHC.Generics.DecidedLazy)
+                                                        (GHC.Generics.Rec0
+                                                           (GHC.Base.Maybe GHC.IO.FilePath)))
+                                  @ p)
+                               (Options.Generic.$w$cgenericParseRecord3
+                                  @ ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "indent")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                  @ (GHC.Base.Maybe GHC.Types.Int)
+                                  @ GHC.Generics.R
+                                  Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel2
+                                  Main.$fParseRecordOptions_$s$fParseFieldsMaybe1
+                                  @ p
+                                  ww1
+                                  ww3) })
+                            (Options.Applicative.Types.MultP
+                               @ ((GHC.Generics.:*:)
+                                    (GHC.Generics.M1
+                                       GHC.Generics.S
+                                       ('GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "inputFile")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy)
+                                       (GHC.Generics.Rec0 GHC.IO.FilePath))
+                                    (GHC.Generics.M1
+                                       GHC.Generics.S
+                                       ('GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "outputFile")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy)
+                                       (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.IO.FilePath)))
+                                    p)
+                               @ (GHC.Generics.M1
+                                    GHC.Generics.S
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "outputFile")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.IO.FilePath))
+                                    p)
+                               (case mods of ww { Options.Generic.Modifiers ww1 ww2 ww3 ->
+                                Options.Applicative.Types.$fApplicativeParser_$cfmap
+                                  @ (GHC.Generics.M1
+                                       GHC.Generics.S
+                                       ('GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "inputFile")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy)
+                                       (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                       p)
+                                  @ (GHC.Generics.M1
+                                       GHC.Generics.S
+                                       ('GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "outputFile")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy)
+                                       (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.IO.FilePath))
+                                       p
+                                     -> (GHC.Generics.:*:)
+                                          (GHC.Generics.M1
+                                             GHC.Generics.S
+                                             ('GHC.Generics.MetaSel
+                                                ('GHC.Base.Just "inputFile")
+                                                'GHC.Generics.NoSourceUnpackedness
+                                                'GHC.Generics.NoSourceStrictness
+                                                'GHC.Generics.DecidedLazy)
+                                             (GHC.Generics.Rec0 GHC.IO.FilePath))
+                                          (GHC.Generics.M1
+                                             GHC.Generics.S
+                                             ('GHC.Generics.MetaSel
+                                                ('GHC.Base.Just "outputFile")
+                                                'GHC.Generics.NoSourceUnpackedness
+                                                'GHC.Generics.NoSourceStrictness
+                                                'GHC.Generics.DecidedLazy)
+                                             (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.IO.FilePath)))
+                                          p)
+                                  (GHC.Generics.:*:
+                                     @ (GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "inputFile")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.Rec0 GHC.IO.FilePath))
+                                     @ (GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "outputFile")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.IO.FilePath)))
+                                     @ p)
+                                  (Options.Generic.$w$cgenericParseRecord3
+                                     @ ('GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "inputFile")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy)
+                                     @ [GHC.Types.Char]
+                                     @ GHC.Generics.R
+                                     Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel1
+                                     Main.$fParseRecordOptions_$s$fParseFields[]
+                                     @ p
+                                     ww1
+                                     ww3) })
+                               (case mods of ww { Options.Generic.Modifiers ww1 ww2 ww3 ->
+                                Options.Generic.$w$cgenericParseRecord3
+                                  @ ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "outputFile")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                  @ (GHC.Base.Maybe GHC.IO.FilePath)
+                                  @ GHC.Generics.R
+                                  Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel
+                                  Main.$fParseRecordOptions_$s$fParseFieldsMaybe
+                                  @ p
+                                  ww1
+                                  ww3 })))))) -}
+fc3dc144f2f0160bd9edb91ba1d3c12a
+  $fParseRecordOptions3 ::
+    GHC.Generics.SingI ('GHC.Base.Just "outputFile")
+  {- Unfolding: InlineRule (0, True, True)
+                Main.$fParseRecordOptions4
+                  `cast`
+                (Trans
+                     (Sym (GHC.Generics.D:R:SingMaybeb0[0] <GHC.Types.Symbol>_N))
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Base.Maybe
+                                                       GHC.Types.Symbol>_N) <'GHC.Base.Just
+                                                                               "outputFile">_N) -}
+361b9d6405fabd29f02efc67d3dc3424
+  $fParseRecordOptions4 ::
+    GHC.Generics.R:SingMaybeb
+      GHC.Types.Symbol ('GHC.Base.Just "outputFile")
+  {- Unfolding: (GHC.Generics.SJust
+                   @ GHC.Types.Symbol
+                   @ ('GHC.Base.Just "outputFile")
+                   @ "outputFile"
+                   @~ <'GHC.Base.Just "outputFile">_N
+                   Main.$fParseRecordOptions5
+                     `cast`
+                   (Sym (GHC.Generics.D:R:SingSymbols0[0]) <"outputFile">_N)) -}
+eb798d6bdfebcc9120f832cb429b9fed
+  $fParseRecordOptions5 :: GHC.Generics.R:SingSymbols "outputFile"
+  {- Strictness: m,
+     Unfolding: (GHC.Generics.SSym
+                   @ "outputFile"
+                   Main.$fParseRecordOptions6
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"outputFile">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"outputFile">_N))) -}
+db86d1d15ca7cd7634e3aca37e99bf18
+  $fParseRecordOptions6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "outputFile"#) -}
+de4d448d586c2c24722e3c0aa3ff9607
+  $fParseRecordOptions7 ::
+    GHC.Generics.SingI ('GHC.Base.Just "inputFile")
+  {- Unfolding: InlineRule (0, True, True)
+                Main.$fParseRecordOptions8
+                  `cast`
+                (Trans
+                     (Sym (GHC.Generics.D:R:SingMaybeb0[0] <GHC.Types.Symbol>_N))
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Base.Maybe
+                                                       GHC.Types.Symbol>_N) <'GHC.Base.Just
+                                                                               "inputFile">_N) -}
+4b2d17a7a369ef1db5781f041b664e96
+  $fParseRecordOptions8 ::
+    GHC.Generics.R:SingMaybeb
+      GHC.Types.Symbol ('GHC.Base.Just "inputFile")
+  {- Unfolding: (GHC.Generics.SJust
+                   @ GHC.Types.Symbol
+                   @ ('GHC.Base.Just "inputFile")
+                   @ "inputFile"
+                   @~ <'GHC.Base.Just "inputFile">_N
+                   Main.$fParseRecordOptions9
+                     `cast`
+                   (Sym (GHC.Generics.D:R:SingSymbols0[0]) <"inputFile">_N)) -}
+ba827b4920baa10dae82f5d7ccbebac1
+  $fParseRecordOptions9 :: GHC.Generics.R:SingSymbols "inputFile"
+  {- Strictness: m,
+     Unfolding: (GHC.Generics.SSym
+                   @ "inputFile"
+                   Main.$fParseRecordOptions10
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"inputFile">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"inputFile">_N))) -}
+ea8aa51040c807f6095ac10d3a3a8045
+  $fParseRecordOptions_$s$dmparseRecord ::
+    Options.Applicative.Types.Parser Main.Options
+  {- Unfolding: InlineRule (-3, True, False)
+                (Options.Applicative.Types.$fApplicativeParser_$cfmap
+                   @ (GHC.Generics.Rep Main.Options GHC.Prim.Any)
+                   @ Main.Options
+                   (Main.$fGenericOptions_$cto @ GHC.Prim.Any)
+                   (Main.$fParseRecordOptions1
+                      `cast`
+                    (Options.Generic.N:GenericParseRecord[0]
+                         (Sym (Main.Rep_Options[0])))
+                      @ GHC.Prim.Any
+                      Options.Generic.defaultModifiers)) -}
+dd52b25cb352c9d60d5d6c6878d7d188
+  $fParseRecordOptions_$s$fParseFieldsMaybe ::
+    Options.Generic.ParseFields (GHC.Base.Maybe [GHC.Types.Char])
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (GHC.Base.Maybe [GHC.Types.Char])
+                  (Options.Generic.$fParseFieldsMaybe_$cparseRecord
+                     @ [GHC.Types.Char]
+                     Options.Generic.$fParseField[])
+                    `cast`
+                  (Sym (Options.Generic.N:ParseRecord[0]) <GHC.Base.Maybe
+                                                             [GHC.Types.Char]>_N)
+                  Main.$fParseRecordOptions_$s$fParseFieldsMaybe_$cparseFields -}
+86638458af666f2b5c4ab9bd1ecedab3
+  $fParseRecordOptions_$s$fParseFieldsMaybe1 ::
+    Options.Generic.ParseFields (GHC.Base.Maybe GHC.Types.Int)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (GHC.Base.Maybe GHC.Types.Int)
+                  (Options.Generic.$fParseFieldsMaybe_$cparseRecord
+                     @ GHC.Types.Int
+                     Options.Generic.$fParseFieldInt)
+                    `cast`
+                  (Sym (Options.Generic.N:ParseRecord[0]) <GHC.Base.Maybe
+                                                             GHC.Types.Int>_N)
+                  Main.$fParseRecordOptions_$s$fParseFieldsMaybe_$cparseFields1 -}
+b9d306b8bdcc2660112c61d66e4f5845
+  $fParseRecordOptions_$s$fParseFieldsMaybe_$cparseFields ::
+    GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Types.Char
+    -> Options.Applicative.Types.Parser
+         (GHC.Base.Maybe [GHC.Types.Char])
+  {- Arity: 3, Strictness: <L,1*U><L,1*U><L,1*U>m4,
+     Unfolding: InlineRule (3, True, False)
+                (\ (h :: GHC.Base.Maybe Data.Text.Internal.Text)
+                   (m :: GHC.Base.Maybe Data.Text.Internal.Text)
+                   (c :: GHC.Base.Maybe GHC.Types.Char) ->
+                 Options.Applicative.Types.AltP
+                   @ (GHC.Base.Maybe [GHC.Types.Char])
+                   (Options.Applicative.Types.$fApplicativeParser_$cfmap
+                      @ [GHC.Types.Char]
+                      @ (GHC.Base.Maybe [GHC.Types.Char])
+                      (GHC.Base.Just @ [GHC.Types.Char])
+                      (Options.Generic.$fParseFieldChar_$cparseListOfField h m c))
+                   (Options.Applicative.Types.NilP
+                      @ (GHC.Base.Maybe [GHC.Types.Char])
+                      (GHC.Base.Just
+                         @ (GHC.Base.Maybe [GHC.Types.Char])
+                         (GHC.Base.Nothing @ [GHC.Types.Char])))) -}
+389a8a47d0bfa8e27a397099df768bfa
+  $fParseRecordOptions_$s$fParseFieldsMaybe_$cparseFields1 ::
+    GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Types.Char
+    -> Options.Applicative.Types.Parser (GHC.Base.Maybe GHC.Types.Int)
+  {- Arity: 3, Strictness: <L,1*U><L,1*U><L,1*U>m4,
+     Unfolding: InlineRule (3, True, False)
+                (\ (h :: GHC.Base.Maybe Data.Text.Internal.Text)
+                   (m :: GHC.Base.Maybe Data.Text.Internal.Text)
+                   (c :: GHC.Base.Maybe GHC.Types.Char) ->
+                 Options.Applicative.Types.AltP
+                   @ (GHC.Base.Maybe GHC.Types.Int)
+                   (Options.Applicative.Types.$fApplicativeParser_$cfmap
+                      @ GHC.Types.Int
+                      @ (GHC.Base.Maybe GHC.Types.Int)
+                      (GHC.Base.Just @ GHC.Types.Int)
+                      (Options.Generic.$fParseFieldInt_$cparseField h m c))
+                   (Options.Applicative.Types.NilP
+                      @ (GHC.Base.Maybe GHC.Types.Int)
+                      (GHC.Base.Just
+                         @ (GHC.Base.Maybe GHC.Types.Int)
+                         (GHC.Base.Nothing @ GHC.Types.Int)))) -}
+ca96780360ea790b17f4462a2249ac40
+  $fParseRecordOptions_$s$fParseFields[] ::
+    Options.Generic.ParseFields [GHC.Types.Char]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ [GHC.Types.Char]
+                  (Options.Generic.$fParseFields[]_$cparseRecord
+                     @ GHC.Types.Char
+                     Options.Generic.$fParseFieldChar)
+                    `cast`
+                  (Sym (Options.Generic.N:ParseRecord[0]) <[GHC.Types.Char]>_N)
+                  Options.Generic.$fParseFieldChar_$cparseListOfField -}
+9021e816e605d759770e830979bfa9f4
+  $fParseRecordOptions_$s$fSelectorMetaMetaSel ::
+    GHC.Generics.Selector
+      ('GHC.Generics.MetaSel
+         ('GHC.Base.Just "outputFile")
+         'GHC.Generics.NoSourceUnpackedness
+         'GHC.Generics.NoSourceStrictness
+         'GHC.Generics.DecidedLazy)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ GHC.Generics.Meta
+                  @ ('GHC.Generics.MetaSel
+                       ('GHC.Base.Just "outputFile")
+                       'GHC.Generics.NoSourceUnpackedness
+                       'GHC.Generics.NoSourceStrictness
+                       'GHC.Generics.DecidedLazy)
+                  Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel_$cselName
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselSourceUnpackedness
+                     @ ('GHC.Base.Just "outputFile")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Main.$fParseRecordOptions3
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N))
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselSourceStrictness
+                     @ ('GHC.Base.Just "outputFile")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Main.$fParseRecordOptions3
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N))
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselDecidedStrictness
+                     @ ('GHC.Base.Just "outputFile")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Main.$fParseRecordOptions3
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N)) -}
+9fcc091caf3168a6b8f7deb4a8be9aae
+  $fParseRecordOptions_$s$fSelectorMetaMetaSel1 ::
+    GHC.Generics.Selector
+      ('GHC.Generics.MetaSel
+         ('GHC.Base.Just "inputFile")
+         'GHC.Generics.NoSourceUnpackedness
+         'GHC.Generics.NoSourceStrictness
+         'GHC.Generics.DecidedLazy)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ GHC.Generics.Meta
+                  @ ('GHC.Generics.MetaSel
+                       ('GHC.Base.Just "inputFile")
+                       'GHC.Generics.NoSourceUnpackedness
+                       'GHC.Generics.NoSourceStrictness
+                       'GHC.Generics.DecidedLazy)
+                  Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel_$cselName1
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselSourceUnpackedness
+                     @ ('GHC.Base.Just "inputFile")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Main.$fParseRecordOptions7
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N))
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselSourceStrictness
+                     @ ('GHC.Base.Just "inputFile")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Main.$fParseRecordOptions7
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N))
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselDecidedStrictness
+                     @ ('GHC.Base.Just "inputFile")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Main.$fParseRecordOptions7
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N)) -}
+699de09ae07f2b3de7208c01c02a1386
+  $fParseRecordOptions_$s$fSelectorMetaMetaSel2 ::
+    GHC.Generics.Selector
+      ('GHC.Generics.MetaSel
+         ('GHC.Base.Just "indent")
+         'GHC.Generics.NoSourceUnpackedness
+         'GHC.Generics.NoSourceStrictness
+         'GHC.Generics.DecidedLazy)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ GHC.Generics.Meta
+                  @ ('GHC.Generics.MetaSel
+                       ('GHC.Base.Just "indent")
+                       'GHC.Generics.NoSourceUnpackedness
+                       'GHC.Generics.NoSourceStrictness
+                       'GHC.Generics.DecidedLazy)
+                  Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel_$cselName2
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselSourceUnpackedness
+                     @ ('GHC.Base.Just "indent")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Main.$fParseRecordOptions11
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N))
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselSourceStrictness
+                     @ ('GHC.Base.Just "indent")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Main.$fParseRecordOptions11
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N))
+                  (GHC.Generics.$fSelectorMetaMetaSel_$cselDecidedStrictness
+                     @ ('GHC.Base.Just "indent")
+                     @ 'GHC.Generics.NoSourceUnpackedness
+                     @ 'GHC.Generics.NoSourceStrictness
+                     @ 'GHC.Generics.DecidedLazy
+                     Main.$fParseRecordOptions11
+                     GHC.Generics.$WSNoSourceUnpackedness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceUnpackedness>_N <'GHC.Generics.NoSourceUnpackedness>_N)
+                     GHC.Generics.$WSNoSourceStrictness
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.SourceStrictness>_N <'GHC.Generics.NoSourceStrictness>_N)
+                     GHC.Generics.$WSDecidedLazy
+                       `cast`
+                     (Sym (GHC.Generics.N:SingI[0]) <GHC.Generics.DecidedStrictness>_N <'GHC.Generics.DecidedLazy>_N)) -}
+f354ab8af5d38addf93e74bc609490bb
+  $fParseRecordOptions_$s$fSelectorMetaMetaSel_$cselName ::
+    forall k (t :: GHC.Generics.Meta
+                   -> (GHC.Types.* -> GHC.Types.*) -> k -> *) (f :: GHC.Types.*
+                                                                    -> GHC.Types.*) (a :: k).
+    t ('GHC.Generics.MetaSel
+         ('GHC.Base.Just "outputFile")
+         'GHC.Generics.NoSourceUnpackedness
+         'GHC.Generics.NoSourceStrictness
+         'GHC.Generics.DecidedLazy) f a
+    -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ k
+                   @ (t :: GHC.Generics.Meta
+                           -> (GHC.Types.* -> GHC.Types.*) -> k -> *)
+                   @ (f :: GHC.Types.* -> GHC.Types.*)
+                   @ (a :: k)
+                   (ds1 :: t ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "outputFile")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy) f a) ->
+                 Main.$fParseRecordOptions6) -}
+a96892c7e1948bd8cbfc578963572bc1
+  $fParseRecordOptions_$s$fSelectorMetaMetaSel_$cselName1 ::
+    forall k (t :: GHC.Generics.Meta
+                   -> (GHC.Types.* -> GHC.Types.*) -> k -> *) (f :: GHC.Types.*
+                                                                    -> GHC.Types.*) (a :: k).
+    t ('GHC.Generics.MetaSel
+         ('GHC.Base.Just "inputFile")
+         'GHC.Generics.NoSourceUnpackedness
+         'GHC.Generics.NoSourceStrictness
+         'GHC.Generics.DecidedLazy) f a
+    -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ k
+                   @ (t :: GHC.Generics.Meta
+                           -> (GHC.Types.* -> GHC.Types.*) -> k -> *)
+                   @ (f :: GHC.Types.* -> GHC.Types.*)
+                   @ (a :: k)
+                   (ds1 :: t ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "inputFile")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy) f a) ->
+                 Main.$fParseRecordOptions10) -}
+2d0131b2ff3515cc9dd7a5397c13c107
+  $fParseRecordOptions_$s$fSelectorMetaMetaSel_$cselName2 ::
+    forall k (t :: GHC.Generics.Meta
+                   -> (GHC.Types.* -> GHC.Types.*) -> k -> *) (f :: GHC.Types.*
+                                                                    -> GHC.Types.*) (a :: k).
+    t ('GHC.Generics.MetaSel
+         ('GHC.Base.Just "indent")
+         'GHC.Generics.NoSourceUnpackedness
+         'GHC.Generics.NoSourceStrictness
+         'GHC.Generics.DecidedLazy) f a
+    -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ k
+                   @ (t :: GHC.Generics.Meta
+                           -> (GHC.Types.* -> GHC.Types.*) -> k -> *)
+                   @ (f :: GHC.Types.* -> GHC.Types.*)
+                   @ (a :: k)
+                   (ds1 :: t ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "indent")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy) f a) ->
+                 Main.$fParseRecordOptions14) -}
+1455e9ed8a1571a5001dad4d24bda97b
+  $fShowMiso :: GHC.Show.Show str => GHC.Show.Show (Main.Miso str)
+  DFunId
+  {- Arity: 1, Strictness: <L,U(C(C1(U)),A,A)>m,
+     Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ str ($dShow :: GHC.Show.Show str).
+                  @ (Main.Miso str)
+                  (Main.$fShowMiso_$cshowsPrec @ str $dShow)
+                  (Main.$fShowMiso_$cshow @ str $dShow)
+                  (Main.$fShowMiso_$cshowList @ str $dShow) -}
+5ba74f5be7469d2f291958275a0a6f7a
+  $fShowMiso1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+91ef56713946d7fa26c433fc871b5f6f
+  $fShowMisoAttribute ::
+    GHC.Show.Show str => GHC.Show.Show (Main.MisoAttribute str)
+  DFunId
+  {- Arity: 1, Strictness: <L,U(C(C1(U)),A,A)>m,
+     Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ str ($dShow :: GHC.Show.Show str).
+                  @ (Main.MisoAttribute str)
+                  (Main.$fShowMisoAttribute_$cshowsPrec @ str $dShow)
+                  (Main.$fShowMisoAttribute_$cshow @ str $dShow)
+                  (Main.$fShowMisoAttribute_$cshowList @ str $dShow) -}
+9ba3c486e99e7113b945985739a41816
+  $fShowMisoAttribute1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "MisoAttribute "#) -}
+3f9b78d3e3b9f68c0c54ec5db64c2c66
+  $fShowMisoAttribute2 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 11#) -}
+91ef56713946d7fa26c433fc871b5f6f
+  $fShowMisoAttribute_$cshow ::
+    GHC.Show.Show str => Main.MisoAttribute str -> GHC.Base.String
+  {- Arity: 2, Strictness: <L,U(C(C1(U)),A,A)><S,1*U(U,U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ str
+                   ($dShow :: GHC.Show.Show str)
+                   (x :: Main.MisoAttribute str) ->
+                 Main.$fShowMisoAttribute_$cshowsPrec
+                   @ str
+                   $dShow
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+91ef56713946d7fa26c433fc871b5f6f
+  $fShowMisoAttribute_$cshowList ::
+    GHC.Show.Show str => [Main.MisoAttribute str] -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,U(C(C1(U)),A,A)><S,1*U><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ str
+                   ($dShow :: GHC.Show.Show str)
+                   (eta :: [Main.MisoAttribute str])
+                   (eta1 :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ (Main.MisoAttribute str)
+                   (Main.$fShowMisoAttribute_$cshowsPrec
+                      @ str
+                      $dShow
+                      Main.$fShowMiso1)
+                   eta
+                   eta1) -}
+91ef56713946d7fa26c433fc871b5f6f
+  $fShowMisoAttribute_$cshowsPrec ::
+    GHC.Show.Show str =>
+    GHC.Types.Int -> Main.MisoAttribute str -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <L,U(C(C1(U)),A,A)><S(S),1*U(U)><S,1*U(U,U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ str
+                   (w :: GHC.Show.Show str)
+                   (w1 :: GHC.Types.Int)
+                   (w2 :: Main.MisoAttribute str) ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 case w2 of ww2 { Main.MisoAttribute ww3 ww4 ->
+                 Main.$w$cshowsPrec1 @ str w ww1 ww3 ww4 } }) -}
+1455e9ed8a1571a5001dad4d24bda97b
+  $fShowMiso_$cshow ::
+    GHC.Show.Show str => Main.Miso str -> GHC.Base.String
+  {- Arity: 2, Strictness: <L,U(C(C1(U)),A,A)><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ str ($dShow :: GHC.Show.Show str) (x :: Main.Miso str) ->
+                 Main.$fShowMiso_$cshowsPrec
+                   @ str
+                   $dShow
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+1455e9ed8a1571a5001dad4d24bda97b
+  $fShowMiso_$cshowList ::
+    GHC.Show.Show str => [Main.Miso str] -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,U(C(C1(U)),A,A)><S,1*U><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ str
+                   ($dShow :: GHC.Show.Show str)
+                   (eta :: [Main.Miso str])
+                   (eta1 :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ (Main.Miso str)
+                   (Main.$fShowMiso_$cshowsPrec @ str $dShow Main.$fShowMiso1)
+                   eta
+                   eta1) -}
+1455e9ed8a1571a5001dad4d24bda97b
+  $fShowMiso_$cshowsPrec ::
+    GHC.Show.Show str =>
+    GHC.Types.Int -> Main.Miso str -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,U(C(C1(U)),A,A)><S(S),1*U(U)><S,1*U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ str
+                   (w :: GHC.Show.Show str)
+                   (w1 :: GHC.Types.Int)
+                   (w2 :: Main.Miso str) ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 Main.$w$cshowsPrec @ str w ww1 w2 }) -}
+ea8aa51040c807f6095ac10d3a3a8045
+  $fShowOptions :: GHC.Show.Show Main.Options
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Options
+                  Main.$fShowOptions_$cshowsPrec
+                  Main.$fShowOptions_$cshow
+                  Main.$fShowOptions_$cshowList -}
+ea8aa51040c807f6095ac10d3a3a8045
+  $fShowOptions1 :: Main.Options -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ (w :: Main.Options) ->
+                 case w of ww { Main.Options ww1 ww2 ww3 ->
+                 Main.$w$cshowsPrec2 0# ww1 ww2 ww3 }) -}
+3875134e4949b68fce0341dc13473940
+  $fShowOptions2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+2a2abbf2d5b818afe4d7fcc3b707662b
+  $fShowOptions3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "outputFile = "#) -}
+d424fa0c6a99852d4ad6c3fa67e4423e
+  $fShowOptions4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "inputFile = "#) -}
+797e26b1690571ceb3ea2a587efc37c9
+  $fShowOptions5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+bda1487d5e6e165c2703a08daf38a8b3
+  $fShowOptions6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "indent = "#) -}
+656eb32a64d690457abed0cf00ff9047
+  $fShowOptions7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Options {"#) -}
+ea8aa51040c807f6095ac10d3a3a8045
+  $fShowOptions_$cshow :: Main.Options -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Main.Options) ->
+                 Main.$fShowOptions_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+ea8aa51040c807f6095ac10d3a3a8045
+  $fShowOptions_$cshowList :: [Main.Options] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Main.Options
+                   Main.$fShowOptions1) -}
+ea8aa51040c807f6095ac10d3a3a8045
+  $fShowOptions_$cshowsPrec ::
+    GHC.Types.Int -> Main.Options -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U(1*U,U,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int) (w1 :: Main.Options) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Main.Options ww3 ww4 ww5 ->
+                 Main.$w$cshowsPrec2 ww1 ww3 ww4 ww5 } }) -}
+dfb85f5e792fd5dd1019cdd1a47e73a1
+  $tc'MisoAttribute :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4845007287665758605##
+                   15209613075021127303##
+                   Main.$trModule
+                   Main.$tc'MisoAttribute1) -}
+4eefa456eca2317d6c0ee593d7c75840
+  $tc'MisoAttribute1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'MisoAttribute"#) -}
+2341f2f0a7b340fb14cc6fb6aa6f7904
+  $tc'MisoElement :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   5967939416687807671##
+                   14717801752424918327##
+                   Main.$trModule
+                   Main.$tc'MisoElement1) -}
+807ffffbda1102d7a627948f1bc8e6f1
+  $tc'MisoElement1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'MisoElement"#) -}
+62c3d135cbbf5e0f63f03186892d28ee
+  $tc'MisoText :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   18017880984480027061##
+                   1591721112866075614##
+                   Main.$trModule
+                   Main.$tc'MisoText1) -}
+0c58d935683cb4bdb96cc9d08b81eebb
+  $tc'MisoText1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'MisoText"#) -}
+22c08b7feb60ed7fee3edc9f60f0c6c9
+  $tc'Options :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12053337813027498352##
+                   16687430618492430967##
+                   Main.$trModule
+                   Main.$tc'Options1) -}
+9cae58cbe3df5dbea147a3ed7d6e2999
+  $tc'Options1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Options"#) -}
+de47bdb1d07484f2cbf84884276edd17
+  $tcMiso :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7226692765214666799##
+                   15163111370772482009##
+                   Main.$trModule
+                   Main.$tcMiso1) -}
+ef111511dba42b568b50376a03856175
+  $tcMiso1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Miso"#) -}
+d301570d4a4256c7e2629ed09b3b7a63
+  $tcMisoAttribute :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   17079747821074328644##
+                   17248998521308245177##
+                   Main.$trModule
+                   Main.$tcMisoAttribute1) -}
+b9cae4979cfd816a4a523c25296fbda1
+  $tcMisoAttribute1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "MisoAttribute"#) -}
+abd603e4fa0fb36a62f46c64ba42a773
+  $tcOptions :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12007406591012137468##
+                   10089152995905404403##
+                   Main.$trModule
+                   Main.$tcOptions1) -}
+c273aba89b8392f117363d7c88d26f3c
+  $tcOptions1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Options"#) -}
+d6831ef04cb9301b090dfae6f7bb7ec7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule2 Main.$trModule1) -}
+847d9fc3b8e6f0b424199f36b4999bb2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Main"#) -}
+24ef6042833e75ffd7aa98b83ecca98d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+1455e9ed8a1571a5001dad4d24bda97b
+  $w$cshowsPrec ::
+    GHC.Show.Show str =>
+    GHC.Prim.Int# -> Main.Miso str -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,U(C(C1(U)),A,A)><S,U><S,1*U>,
+     Inline: [0] -}
+8339eee5a65ec11df2c90698cf9aaf7c
+  $w$cshowsPrec1 ::
+    GHC.Show.Show str => GHC.Prim.Int# -> str -> str -> GHC.Show.ShowS
+  {- Arity: 4, Strictness: <L,U(C(C1(U)),A,A)><S,U><L,U><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ str
+                   (w :: GHC.Show.Show str)
+                   (ww :: GHC.Prim.Int#)
+                   (ww1 :: str)
+                   (ww2 :: str) ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.showsPrec @ str w Main.$fShowMisoAttribute2 ww1
+                 } in
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.showsPrec @ str w Main.$fShowMisoAttribute2 ww2
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False
+                   -> \ (x :: GHC.Base.String) ->
+                      GHC.Base.++
+                        @ GHC.Types.Char
+                        Main.$fShowMisoAttribute1
+                        (f (GHC.Types.: @ GHC.Types.Char GHC.Show.showSpace1 (g x)))
+                   GHC.Types.True
+                   -> \ (x :: GHC.Base.String) ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Main.$fShowMisoAttribute1
+                           (f (GHC.Types.:
+                                 @ GHC.Types.Char
+                                 GHC.Show.showSpace1
+                                 (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 x))))) }) -}
+42dfa2eed405d7930a25becc6689fc40
+  $w$cshowsPrec2 ::
+    GHC.Prim.Int#
+    -> GHC.Base.Maybe GHC.Types.Int
+    -> GHC.IO.FilePath
+    -> GHC.Base.Maybe GHC.IO.FilePath
+    -> GHC.Show.ShowS
+  {- Arity: 4, Strictness: <S,U><L,1*U><L,U><L,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Base.Maybe GHC.Types.Int)
+                   (ww2 :: GHC.IO.FilePath)
+                   (ww3 :: GHC.Base.Maybe GHC.IO.FilePath) ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.$fShowMaybe_$cshowsPrec
+                       @ GHC.Types.Int
+                       GHC.Show.$fShowInt
+                       Main.$fShowMiso1
+                       ww1
+                 } in
+                 let {
+                   f1 :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.$fShowMaybe_$cshowsPrec
+                       @ [GHC.Types.Char]
+                       GHC.Show.$fShow[]_$s$fShow[]1
+                       Main.$fShowMiso1
+                       ww3
+                 } in
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String) ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Main.$fShowOptions7
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Main.$fShowOptions6
+                          (f (GHC.Base.++
+                                @ GHC.Types.Char
+                                Main.$fShowOptions5
+                                (GHC.Base.++
+                                   @ GHC.Types.Char
+                                   Main.$fShowOptions4
+                                   (GHC.Types.:
+                                      @ GHC.Types.Char
+                                      GHC.Show.shows6
+                                      (GHC.Show.showLitString
+                                         ww2
+                                         (GHC.Types.:
+                                            @ GHC.Types.Char
+                                            GHC.Show.shows6
+                                            (GHC.Base.++
+                                               @ GHC.Types.Char
+                                               Main.$fShowOptions5
+                                               (GHC.Base.++
+                                                  @ GHC.Types.Char
+                                                  Main.$fShowOptions3
+                                                  (f1
+                                                     (GHC.Base.++
+                                                        @ GHC.Types.Char
+                                                        Main.$fShowOptions2
+                                                        x)))))))))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p
+                   GHC.Types.True
+                   -> \ (x :: GHC.Base.String) ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 x)) }) -}
+083aa1d9eec9d40efba42470bf7e97e7
+  $wtoMisoFile ::
+    GHC.Base.Maybe GHC.Types.Int
+    -> GHC.IO.FilePath
+    -> GHC.Base.Maybe GHC.IO.FilePath
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 4, Strictness: <L,1*U><L,U><L,1*U><S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Base.Maybe GHC.Types.Int)
+                   (ww1 :: GHC.IO.FilePath)
+                   (ww2 :: GHC.Base.Maybe GHC.IO.FilePath)
+                   (w :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.IO.Handle.FD.openFile1
+                        ww1
+                        GHC.IO.IOMode.ReadMode
+                        w of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv1
+                        ipv of ds { (#,#) ipv2 ipv3 ->
+                 case ww2 of wild {
+                   GHC.Base.Nothing
+                   -> Main.main6
+                        @ ()
+                        System.IO.putStrLn1
+                          `cast`
+                        (<GHC.Base.String>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                        (case ww of wild1 {
+                           GHC.Base.Nothing -> Main.main5 GHC.Base.Just v -> v })
+                        (Main.tagToMiso (Main.cleanup (Main.cleanup (Main.main4 ipv3))))
+                        ipv2
+                   GHC.Base.Just f
+                   -> Main.main6
+                        @ ()
+                        (\ (input :: [GHC.Types.Char])
+                           (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                         System.IO.appendFile1
+                           f
+                           (GHC.Base.++ @ GHC.Types.Char input Main.main3)
+                           eta)
+                          `cast`
+                        (<[GHC.Types.Char]>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                        (case ww of wild1 {
+                           GHC.Base.Nothing -> Main.main5 GHC.Base.Just v -> v })
+                        (Main.tagToMiso (Main.cleanup (Main.cleanup (Main.main4 ipv3))))
+                        ipv2 } } }) -}
+be100db4a9853a43948d0febfbf996c1
+  type Indent = GHC.Types.Int
+1455e9ed8a1571a5001dad4d24bda97b
+  data Miso str
+    = MisoElement str [Main.MisoAttribute str] [Main.Miso str]
+    | MisoText str
+91ef56713946d7fa26c433fc871b5f6f
+  data MisoAttribute str = MisoAttribute str str
+ea8aa51040c807f6095ac10d3a3a8045
+  data Options
+    = Options {indent :: GHC.Base.Maybe GHC.Types.Int,
+               inputFile :: GHC.IO.FilePath,
+               outputFile :: GHC.Base.Maybe GHC.IO.FilePath}
+ea8aa51040c807f6095ac10d3a3a8045
+  axiom Rep_Options::
+      GHC.Generics.Rep Main.Options
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData "Options" "Main" "main" 'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "Options" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "indent")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Types.Int))
+                GHC.Generics.:*: (GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "inputFile")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 GHC.IO.FilePath)
+                                  GHC.Generics.:*: GHC.Generics.S1
+                                                     ('GHC.Generics.MetaSel
+                                                        ('GHC.Base.Just "outputFile")
+                                                        'GHC.Generics.NoSourceUnpackedness
+                                                        'GHC.Generics.NoSourceStrictness
+                                                        'GHC.Generics.DecidedLazy)
+                                                     (GHC.Generics.Rec0
+                                                        (GHC.Base.Maybe GHC.IO.FilePath)))))
+d2a2480b2dff5a4ffa47699990b3bef6
+  cleanup ::
+    [Text.HTML.TagSoup.Type.Tag GHC.Base.String]
+    -> [Text.HTML.TagSoup.Type.Tag GHC.Base.String]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+c8e53bc0a4a02880faacdb59c840cff6
+  indent :: Main.Options -> GHC.Base.Maybe GHC.Types.Int
+  RecSel Left Main.Options
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Options) ->
+                 case ds of wild { Main.Options ds1 ds2 ds3 -> ds1 }) -}
+db0b610a97ac678df4e3a934f9c6454a
+  inputFile :: Main.Options -> GHC.IO.FilePath
+  RecSel Left Main.Options
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Options) ->
+                 case ds of wild { Main.Options ds1 ds2 ds3 -> ds2 }) -}
+36b1656fd155f8b4c8f26eea595d7db8
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+7d970aaddb18b0d84910fde92937de02
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case (Options.Generic.getRecord
+                         @ GHC.Types.IO
+                         @ Main.Options
+                         Control.Monad.IO.Class.$fMonadIOIO
+                         (Options.Applicative.Types.$fApplicativeParser_$cfmap
+                            @ (GHC.Generics.Rep Main.Options GHC.Prim.Any)
+                            @ Main.Options
+                            (Main.$fGenericOptions_$cto @ GHC.Prim.Any)
+                            (Main.$fParseRecordOptions2
+                               @ GHC.Prim.Any
+                               Options.Generic.defaultModifiers)
+                              `cast`
+                            (Options.Applicative.Types.Parser
+                               (Sym (Main.Rep_Options[0]) <GHC.Prim.Any>_N))_R)
+                           `cast`
+                         (Sym (Options.Generic.N:ParseRecord[0]) <Main.Options>_N)
+                         Main.main7)
+                        `cast`
+                      (GHC.Types.N:IO[0] <Main.Options>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 Main.main2 ipv1 ipv }) -}
+789080f8e0af32418bc1915c27bbb990
+  main2 ::
+    Main.Options
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <S,1*U(1*U,U,1*U)><S,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Main.Options)
+                   (w1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case w of ww { Main.Options ww1 ww2 ww3 ->
+                 Main.$wtoMisoFile ww1 ww2 ww3 w1 }) -}
+4e4e8abdec81e2bcd0c5574aa6174994
+  main3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "\n\
+                   \\n"#) -}
+aea7eccf82364d2d78c7ca8c3a3ebc15
+  main4 ::
+    GHC.Base.String -> [Text.HTML.TagSoup.Type.Tag GHC.Base.String]
+  {- Unfolding: (Text.HTML.TagSoup.Parser.parseTags
+                   @ GHC.Base.String
+                   Text.StringLike.$fStringLike[]) -}
+f5afe821d52238e4f37205319b52c5d0
+  main5 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 2#) -}
+f314cded3ab272401603f0f615d1c472
+  main6 ::
+    ([GHC.Types.Char] -> GHC.Types.IO b)
+    -> Main.Indent
+    -> [Main.Miso GHC.Base.String]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 4, Strictness: <L,C(C1(U(U,A)))><L,U(U)><S,U><S,U>,
+     Unfolding: (\ @ b
+                   (outMethod :: [GHC.Types.Char] -> GHC.Types.IO b)
+                   (i :: Main.Indent)
+                   (miso :: [Main.Miso GHC.Base.String])
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 letrec {
+                   go :: [Main.Miso GHC.Base.String]
+                         -> [GHC.Types.Int]
+                         -> GHC.Prim.State# GHC.Prim.RealWorld
+                         -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                     {- Arity: 3, Strictness: <S,1*U><L,1*U><S,U> -}
+                   = \ (ds :: [Main.Miso GHC.Base.String])
+                       (_ys :: [GHC.Types.Int])
+                       (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                     case ds of wild {
+                       [] -> (# eta1, GHC.Tuple.() #)
+                       : ipv ipv1
+                       -> case _ys of wild1 {
+                            [] -> (# eta1, GHC.Tuple.() #)
+                            : ipv2 ipv3
+                            -> case (outMethod
+                                       (GHC.CString.unpackAppendCString#
+                                          "fn"#
+                                          (case ipv2 of ww2 { GHC.Types.I# ww3 ->
+                                           case GHC.Show.$wshowSignedInt
+                                                  0#
+                                                  ww3
+                                                  (GHC.Types.[]
+                                                     @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                                           GHC.Base.++
+                                             @ GHC.Types.Char
+                                             (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                                             (GHC.CString.unpackAppendCString#
+                                                " = "#
+                                                (Main.showMisoIndent i ipv)) } })))
+                                      `cast`
+                                    (GHC.Types.N:IO[0] <b>_R)
+                                      eta1 of ds1 { (#,#) ipv4 ipv5 ->
+                               go ipv1 ipv3 ipv4 } } }
+                 } in
+                 go
+                   miso
+                   (case GHC.List.$wlenAcc
+                           @ (Main.Miso GHC.Base.String)
+                           miso
+                           0# of ww2 { DEFAULT ->
+                    GHC.Enum.eftInt 1# ww2 })
+                   eta) -}
+80ecef2165e7f50e25eab54918674fc1
+  main7 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "miso-from-html"#) -}
+0b2da38e916fe91e69cfcbbeb3486d9b
+  main8 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+73482270edac2790ba2009f1b7abc3d0
+  outputFile :: Main.Options -> GHC.Base.Maybe GHC.IO.FilePath
+  RecSel Left Main.Options
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Options) ->
+                 case ds of wild { Main.Options ds1 ds2 ds3 -> ds3 }) -}
+b8541055b044a0da5389c57a4d078014
+  showMiso :: Main.Miso GHC.Base.String -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U> -}
+c57463ff6da4b01d507a6124e2dac2a9
+  showMisoIndent ::
+    Main.Indent -> Main.Miso GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, Strictness: <L,U(U)><S,1*U> -}
+ecdb4377b2f05991cfa81f49cab4d6a1
+  tagToMiso ::
+    [Text.HTML.TagSoup.Type.Tag GHC.Base.String]
+    -> [Main.Miso GHC.Base.String]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+4e206d79fe14907d630908e5094593f2
+  toMisoFile :: Main.Options -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <S,1*U(1*U,U,1*U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main2
+                  `cast`
+                (<Main.Options>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+instance [safe] GHC.Generics.Generic [Main.Options]
+  = Main.$fGenericOptions
+instance [safe] Options.Generic.ParseRecord [Main.Options]
+  = Main.$fParseRecordOptions
+instance [safe] GHC.Show.Show [Main.Miso] = Main.$fShowMiso
+instance [safe] GHC.Show.Show [Main.MisoAttribute]
+  = Main.$fShowMisoAttribute
+instance [safe] GHC.Show.Show [Main.Options] = Main.$fShowOptions
+family instance GHC.Generics.Rep [Main.Options] = Main.Rep_Options
+"SPEC/Main $dmparseRecord @ Options" [ALWAYS] forall ($dGenericParseRecord :: Options.Generic.GenericParseRecord
+                                                                                (GHC.Generics.Rep
+                                                                                   Main.Options))
+                                                     ($dGeneric :: GHC.Generics.Generic
+                                                                     Main.Options)
+                                                     ($dParseRecord :: Options.Generic.ParseRecord
+                                                                         Main.Options)
+  Options.Generic.$dmparseRecord @ Main.Options
+                                 $dParseRecord
+                                 $dGeneric
+                                 $dGenericParseRecord
+  = Main.$fParseRecordOptions_$s$dmparseRecord
+"SPEC/Main $fParseFieldsMaybe @ Int" [ALWAYS] forall ($dParseField :: Options.Generic.ParseField
+                                                                        GHC.Types.Int)
+  Options.Generic.$fParseFieldsMaybe @ GHC.Types.Int $dParseField
+  = Main.$fParseRecordOptions_$s$fParseFieldsMaybe1
+"SPEC/Main $fParseFieldsMaybe @ [Char]" [ALWAYS] forall ($dParseField :: Options.Generic.ParseField
+                                                                           [GHC.Types.Char])
+  Options.Generic.$fParseFieldsMaybe @ [GHC.Types.Char] $dParseField
+  = Main.$fParseRecordOptions_$s$fParseFieldsMaybe
+"SPEC/Main $fParseFieldsMaybe_$cparseFields @ Int" [ALWAYS] forall ($dParseField :: Options.Generic.ParseField
+                                                                                      GHC.Types.Int)
+  Options.Generic.$fParseFieldsMaybe_$cparseFields @ GHC.Types.Int
+                                                   $dParseField
+  = Main.$fParseRecordOptions_$s$fParseFieldsMaybe_$cparseFields1
+"SPEC/Main $fParseFieldsMaybe_$cparseFields @ [Char]" [ALWAYS] forall ($dParseField :: Options.Generic.ParseField
+                                                                                         [GHC.Types.Char])
+  Options.Generic.$fParseFieldsMaybe_$cparseFields @ [GHC.Types.Char]
+                                                   $dParseField
+  = Main.$fParseRecordOptions_$s$fParseFieldsMaybe_$cparseFields
+"SPEC/Main $fParseFields[] @ Char" [ALWAYS] forall ($dParseField :: Options.Generic.ParseField
+                                                                      GHC.Types.Char)
+  Options.Generic.$fParseFields[] @ GHC.Types.Char $dParseField
+  = Main.$fParseRecordOptions_$s$fParseFields[]
+"SPEC/Main $fSelectorMetaMetaSel @ ('Just
+                                     "indent") @ 'NoSourceUnpackedness @ 'NoSourceStrictness @ 'DecidedLazy" [ALWAYS] forall ($dSingI3 :: GHC.Generics.SingI
+                                                                                                                                                                                      'GHC.Generics.DecidedLazy)
+                                                                                                                                                                       ($dSingI2 :: GHC.Generics.SingI
+                                                                                                                                                                                      'GHC.Generics.NoSourceStrictness)
+                                                                                                                                                                       ($dSingI1 :: GHC.Generics.SingI
+                                                                                                                                                                                      'GHC.Generics.NoSourceUnpackedness)
+                                                                                                                                                                       ($dSingI :: GHC.Generics.SingI
+                                                                                                                                                                                     ('GHC.Base.Just
+                                                                                                                                                                                        "indent"))
+  GHC.Generics.$fSelectorMetaMetaSel @ ('GHC.Base.Just "indent")
+                                     @ 'GHC.Generics.NoSourceUnpackedness
+                                     @ 'GHC.Generics.NoSourceStrictness
+                                     @ 'GHC.Generics.DecidedLazy
+                                     $dSingI
+                                     $dSingI1
+                                     $dSingI2
+                                     $dSingI3
+  = Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel2
+"SPEC/Main $fSelectorMetaMetaSel @ ('Just
+                                     "inputFile") @ 'NoSourceUnpackedness @ 'NoSourceStrictness @ 'DecidedLazy" [ALWAYS] forall ($dSingI3 :: GHC.Generics.SingI
+                                                                                                                                                                                         'GHC.Generics.DecidedLazy)
+                                                                                                                                                                          ($dSingI2 :: GHC.Generics.SingI
+                                                                                                                                                                                         'GHC.Generics.NoSourceStrictness)
+                                                                                                                                                                          ($dSingI1 :: GHC.Generics.SingI
+                                                                                                                                                                                         'GHC.Generics.NoSourceUnpackedness)
+                                                                                                                                                                          ($dSingI :: GHC.Generics.SingI
+                                                                                                                                                                                        ('GHC.Base.Just
+                                                                                                                                                                                           "inputFile"))
+  GHC.Generics.$fSelectorMetaMetaSel @ ('GHC.Base.Just "inputFile")
+                                     @ 'GHC.Generics.NoSourceUnpackedness
+                                     @ 'GHC.Generics.NoSourceStrictness
+                                     @ 'GHC.Generics.DecidedLazy
+                                     $dSingI
+                                     $dSingI1
+                                     $dSingI2
+                                     $dSingI3
+  = Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel1
+"SPEC/Main $fSelectorMetaMetaSel @ ('Just
+                                     "outputFile") @ 'NoSourceUnpackedness @ 'NoSourceStrictness @ 'DecidedLazy" [ALWAYS] forall ($dSingI3 :: GHC.Generics.SingI
+                                                                                                                                                                                          'GHC.Generics.DecidedLazy)
+                                                                                                                                                                           ($dSingI2 :: GHC.Generics.SingI
+                                                                                                                                                                                          'GHC.Generics.NoSourceStrictness)
+                                                                                                                                                                           ($dSingI1 :: GHC.Generics.SingI
+                                                                                                                                                                                          'GHC.Generics.NoSourceUnpackedness)
+                                                                                                                                                                           ($dSingI :: GHC.Generics.SingI
+                                                                                                                                                                                         ('GHC.Base.Just
+                                                                                                                                                                                            "outputFile"))
+  GHC.Generics.$fSelectorMetaMetaSel @ ('GHC.Base.Just "outputFile")
+                                     @ 'GHC.Generics.NoSourceUnpackedness
+                                     @ 'GHC.Generics.NoSourceStrictness
+                                     @ 'GHC.Generics.DecidedLazy
+                                     $dSingI
+                                     $dSingI1
+                                     $dSingI2
+                                     $dSingI3
+  = Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel
+"SPEC/Main $fSelectorMetaMetaSel_$cselName @ ('Just
+                                               "indent") @ 'NoSourceUnpackedness @ 'NoSourceStrictness @ 'DecidedLazy" [ALWAYS] forall ($dSingI3 :: GHC.Generics.SingI
+                                                                                                                                                                                                          'GHC.Generics.DecidedLazy)
+                                                                                                                                                                                           ($dSingI2 :: GHC.Generics.SingI
+                                                                                                                                                                                                          'GHC.Generics.NoSourceStrictness)
+                                                                                                                                                                                           ($dSingI1 :: GHC.Generics.SingI
+                                                                                                                                                                                                          'GHC.Generics.NoSourceUnpackedness)
+                                                                                                                                                                                           ($dSingI :: GHC.Generics.SingI
+                                                                                                                                                                                                         ('GHC.Base.Just
+                                                                                                                                                                                                            "indent"))
+  GHC.Generics.$fSelectorMetaMetaSel_$cselName @ ('GHC.Base.Just
+                                                    "indent")
+                                               @ 'GHC.Generics.NoSourceUnpackedness
+                                               @ 'GHC.Generics.NoSourceStrictness
+                                               @ 'GHC.Generics.DecidedLazy
+                                               $dSingI
+                                               $dSingI1
+                                               $dSingI2
+                                               $dSingI3
+  = Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel_$cselName2
+"SPEC/Main $fSelectorMetaMetaSel_$cselName @ ('Just
+                                               "inputFile") @ 'NoSourceUnpackedness @ 'NoSourceStrictness @ 'DecidedLazy" [ALWAYS] forall ($dSingI3 :: GHC.Generics.SingI
+                                                                                                                                                                                                             'GHC.Generics.DecidedLazy)
+                                                                                                                                                                                              ($dSingI2 :: GHC.Generics.SingI
+                                                                                                                                                                                                             'GHC.Generics.NoSourceStrictness)
+                                                                                                                                                                                              ($dSingI1 :: GHC.Generics.SingI
+                                                                                                                                                                                                             'GHC.Generics.NoSourceUnpackedness)
+                                                                                                                                                                                              ($dSingI :: GHC.Generics.SingI
+                                                                                                                                                                                                            ('GHC.Base.Just
+                                                                                                                                                                                                               "inputFile"))
+  GHC.Generics.$fSelectorMetaMetaSel_$cselName @ ('GHC.Base.Just
+                                                    "inputFile")
+                                               @ 'GHC.Generics.NoSourceUnpackedness
+                                               @ 'GHC.Generics.NoSourceStrictness
+                                               @ 'GHC.Generics.DecidedLazy
+                                               $dSingI
+                                               $dSingI1
+                                               $dSingI2
+                                               $dSingI3
+  = Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel_$cselName1
+"SPEC/Main $fSelectorMetaMetaSel_$cselName @ ('Just
+                                               "outputFile") @ 'NoSourceUnpackedness @ 'NoSourceStrictness @ 'DecidedLazy" [ALWAYS] forall ($dSingI3 :: GHC.Generics.SingI
+                                                                                                                                                                                                              'GHC.Generics.DecidedLazy)
+                                                                                                                                                                                               ($dSingI2 :: GHC.Generics.SingI
+                                                                                                                                                                                                              'GHC.Generics.NoSourceStrictness)
+                                                                                                                                                                                               ($dSingI1 :: GHC.Generics.SingI
+                                                                                                                                                                                                              'GHC.Generics.NoSourceUnpackedness)
+                                                                                                                                                                                               ($dSingI :: GHC.Generics.SingI
+                                                                                                                                                                                                             ('GHC.Base.Just
+                                                                                                                                                                                                                "outputFile"))
+  GHC.Generics.$fSelectorMetaMetaSel_$cselName @ ('GHC.Base.Just
+                                                    "outputFile")
+                                               @ 'GHC.Generics.NoSourceUnpackedness
+                                               @ 'GHC.Generics.NoSourceStrictness
+                                               @ 'GHC.Generics.DecidedLazy
+                                               $dSingI
+                                               $dSingI1
+                                               $dSingI2
+                                               $dSingI3
+  = Main.$fParseRecordOptions_$s$fSelectorMetaMetaSel_$cselName
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

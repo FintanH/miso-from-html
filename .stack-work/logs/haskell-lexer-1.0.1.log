@@ -1,0 +1,2328 @@
+Configuring haskell-lexer-1.0.1...
+Building haskell-lexer-1.0.1...
+Preprocessing library haskell-lexer-1.0.1...
+[1 of 6] Compiling Language.Haskell.Lexer.Tokens ( Language/Haskell/Lexer/Tokens.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Language/Haskell/Lexer/Tokens.o )
+[2 of 6] Compiling Language.Haskell.Lexer.Utils ( Language/Haskell/Lexer/Utils.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Language/Haskell/Lexer/Utils.o )
+[3 of 6] Compiling Language.Haskell.Lexer.Position ( Language/Haskell/Lexer/Position.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Language/Haskell/Lexer/Position.o )
+
+Language/Haskell/Lexer/Position.hs:30:7: warning: [-Woverlapping-patterns]
+    Pattern match is redundant
+    In a case alternative: '\n' -> ...
+[4 of 6] Compiling Language.Haskell.Lexer.Lex ( Language/Haskell/Lexer/Lex.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Language/Haskell/Lexer/Lex.o )
+
+Language/Haskell/Lexer/Lex.hs:217:5: warning: [-Wname-shadowing]
+    This binding for ‘c’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:19:8
+
+Language/Haskell/Lexer/Lex.hs:226:26: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:226:8
+
+Language/Haskell/Lexer/Lex.hs:228:8: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:288:8: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:289:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:288:8
+
+Language/Haskell/Lexer/Lex.hs:290:8: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:299:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:290:8
+
+Language/Haskell/Lexer/Lex.hs:302:8: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:303:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:302:8
+
+Language/Haskell/Lexer/Lex.hs:304:8: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:320:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:304:8
+
+Language/Haskell/Lexer/Lex.hs:323:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start5’
+
+Language/Haskell/Lexer/Lex.hs:323:26: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:323:8
+
+Language/Haskell/Lexer/Lex.hs:339:8: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:342:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start7’
+
+Language/Haskell/Lexer/Lex.hs:342:26: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:342:8
+
+Language/Haskell/Lexer/Lex.hs:388:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start8’
+
+Language/Haskell/Lexer/Lex.hs:388:26: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:388:8
+
+Language/Haskell/Lexer/Lex.hs:403:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start10’
+
+Language/Haskell/Lexer/Lex.hs:403:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:403:9
+
+Language/Haskell/Lexer/Lex.hs:423:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start12’
+
+Language/Haskell/Lexer/Lex.hs:423:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:423:9
+
+Language/Haskell/Lexer/Lex.hs:432:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start13’
+
+Language/Haskell/Lexer/Lex.hs:432:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:432:9
+
+Language/Haskell/Lexer/Lex.hs:441:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start14’
+
+Language/Haskell/Lexer/Lex.hs:441:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:441:9
+
+Language/Haskell/Lexer/Lex.hs:451:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start15’
+
+Language/Haskell/Lexer/Lex.hs:451:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:451:9
+
+Language/Haskell/Lexer/Lex.hs:460:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start16’
+
+Language/Haskell/Lexer/Lex.hs:460:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:460:9
+
+Language/Haskell/Lexer/Lex.hs:470:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start17’
+
+Language/Haskell/Lexer/Lex.hs:470:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:470:9
+
+Language/Haskell/Lexer/Lex.hs:479:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start18’
+
+Language/Haskell/Lexer/Lex.hs:479:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:479:9
+
+Language/Haskell/Lexer/Lex.hs:490:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start19’
+
+Language/Haskell/Lexer/Lex.hs:490:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:490:9
+
+Language/Haskell/Lexer/Lex.hs:499:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start20’
+
+Language/Haskell/Lexer/Lex.hs:499:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:499:9
+
+Language/Haskell/Lexer/Lex.hs:508:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start21’
+
+Language/Haskell/Lexer/Lex.hs:508:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:508:9
+
+Language/Haskell/Lexer/Lex.hs:521:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start22’
+
+Language/Haskell/Lexer/Lex.hs:521:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:521:9
+
+Language/Haskell/Lexer/Lex.hs:530:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start23’
+
+Language/Haskell/Lexer/Lex.hs:530:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:530:9
+
+Language/Haskell/Lexer/Lex.hs:539:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start24’
+
+Language/Haskell/Lexer/Lex.hs:539:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:539:9
+
+Language/Haskell/Lexer/Lex.hs:548:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start25’
+
+Language/Haskell/Lexer/Lex.hs:548:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:548:9
+
+Language/Haskell/Lexer/Lex.hs:558:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start26’
+
+Language/Haskell/Lexer/Lex.hs:558:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:558:9
+
+Language/Haskell/Lexer/Lex.hs:568:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start27’
+
+Language/Haskell/Lexer/Lex.hs:568:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:568:9
+
+Language/Haskell/Lexer/Lex.hs:577:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start28’
+
+Language/Haskell/Lexer/Lex.hs:577:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:577:9
+
+Language/Haskell/Lexer/Lex.hs:586:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start29’
+
+Language/Haskell/Lexer/Lex.hs:586:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:586:9
+
+Language/Haskell/Lexer/Lex.hs:596:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start30’
+
+Language/Haskell/Lexer/Lex.hs:596:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:596:9
+
+Language/Haskell/Lexer/Lex.hs:609:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start32’
+
+Language/Haskell/Lexer/Lex.hs:609:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:609:9
+
+Language/Haskell/Lexer/Lex.hs:618:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start33’
+
+Language/Haskell/Lexer/Lex.hs:618:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:618:9
+
+Language/Haskell/Lexer/Lex.hs:627:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start34’
+
+Language/Haskell/Lexer/Lex.hs:627:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:627:9
+
+Language/Haskell/Lexer/Lex.hs:663:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start35’
+
+Language/Haskell/Lexer/Lex.hs:663:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:663:9
+
+Language/Haskell/Lexer/Lex.hs:674:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start36’
+
+Language/Haskell/Lexer/Lex.hs:674:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:674:9
+
+Language/Haskell/Lexer/Lex.hs:693:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start38’
+
+Language/Haskell/Lexer/Lex.hs:693:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:693:9
+
+Language/Haskell/Lexer/Lex.hs:717:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start39’
+
+Language/Haskell/Lexer/Lex.hs:717:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:717:9
+
+Language/Haskell/Lexer/Lex.hs:749:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start41’
+
+Language/Haskell/Lexer/Lex.hs:749:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:749:9
+
+Language/Haskell/Lexer/Lex.hs:765:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start42’
+
+Language/Haskell/Lexer/Lex.hs:765:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:765:9
+
+Language/Haskell/Lexer/Lex.hs:774:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:777:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start44’
+
+Language/Haskell/Lexer/Lex.hs:777:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:777:9
+
+Language/Haskell/Lexer/Lex.hs:817:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start45’
+
+Language/Haskell/Lexer/Lex.hs:817:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:817:9
+
+Language/Haskell/Lexer/Lex.hs:830:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start46’
+
+Language/Haskell/Lexer/Lex.hs:830:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:830:9
+
+Language/Haskell/Lexer/Lex.hs:839:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start47’
+
+Language/Haskell/Lexer/Lex.hs:839:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:839:9
+
+Language/Haskell/Lexer/Lex.hs:848:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start48’
+
+Language/Haskell/Lexer/Lex.hs:848:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:848:9
+
+Language/Haskell/Lexer/Lex.hs:858:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start49’
+
+Language/Haskell/Lexer/Lex.hs:858:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:858:9
+
+Language/Haskell/Lexer/Lex.hs:867:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start50’
+
+Language/Haskell/Lexer/Lex.hs:867:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:867:9
+
+Language/Haskell/Lexer/Lex.hs:877:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start51’
+
+Language/Haskell/Lexer/Lex.hs:877:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:877:9
+
+Language/Haskell/Lexer/Lex.hs:886:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start52’
+
+Language/Haskell/Lexer/Lex.hs:886:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:886:9
+
+Language/Haskell/Lexer/Lex.hs:897:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start53’
+
+Language/Haskell/Lexer/Lex.hs:897:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:897:9
+
+Language/Haskell/Lexer/Lex.hs:906:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start54’
+
+Language/Haskell/Lexer/Lex.hs:906:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:906:9
+
+Language/Haskell/Lexer/Lex.hs:915:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start55’
+
+Language/Haskell/Lexer/Lex.hs:915:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:915:9
+
+Language/Haskell/Lexer/Lex.hs:928:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start56’
+
+Language/Haskell/Lexer/Lex.hs:928:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:928:9
+
+Language/Haskell/Lexer/Lex.hs:937:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start57’
+
+Language/Haskell/Lexer/Lex.hs:937:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:937:9
+
+Language/Haskell/Lexer/Lex.hs:946:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start58’
+
+Language/Haskell/Lexer/Lex.hs:946:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:946:9
+
+Language/Haskell/Lexer/Lex.hs:955:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start59’
+
+Language/Haskell/Lexer/Lex.hs:955:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:955:9
+
+Language/Haskell/Lexer/Lex.hs:965:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start60’
+
+Language/Haskell/Lexer/Lex.hs:965:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:965:9
+
+Language/Haskell/Lexer/Lex.hs:975:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start61’
+
+Language/Haskell/Lexer/Lex.hs:975:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:975:9
+
+Language/Haskell/Lexer/Lex.hs:984:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start62’
+
+Language/Haskell/Lexer/Lex.hs:984:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:984:9
+
+Language/Haskell/Lexer/Lex.hs:993:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start63’
+
+Language/Haskell/Lexer/Lex.hs:993:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:993:9
+
+Language/Haskell/Lexer/Lex.hs:1003:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start64’
+
+Language/Haskell/Lexer/Lex.hs:1003:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1003:9
+
+Language/Haskell/Lexer/Lex.hs:1016:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start65’
+
+Language/Haskell/Lexer/Lex.hs:1016:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1016:9
+
+Language/Haskell/Lexer/Lex.hs:1026:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start66’
+
+Language/Haskell/Lexer/Lex.hs:1026:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1026:9
+
+Language/Haskell/Lexer/Lex.hs:1035:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start67’
+
+Language/Haskell/Lexer/Lex.hs:1035:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1035:9
+
+Language/Haskell/Lexer/Lex.hs:1044:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start68’
+
+Language/Haskell/Lexer/Lex.hs:1044:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1044:9
+
+Language/Haskell/Lexer/Lex.hs:1080:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start69’
+
+Language/Haskell/Lexer/Lex.hs:1080:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1080:9
+
+Language/Haskell/Lexer/Lex.hs:1091:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start70’
+
+Language/Haskell/Lexer/Lex.hs:1091:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1091:9
+
+Language/Haskell/Lexer/Lex.hs:1103:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start71’
+
+Language/Haskell/Lexer/Lex.hs:1103:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1103:9
+
+Language/Haskell/Lexer/Lex.hs:1127:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start72’
+
+Language/Haskell/Lexer/Lex.hs:1127:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1127:9
+
+Language/Haskell/Lexer/Lex.hs:1152:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1155:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1156:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1155:9
+
+Language/Haskell/Lexer/Lex.hs:1157:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1173:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1157:9
+
+Language/Haskell/Lexer/Lex.hs:1176:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1177:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1176:9
+
+Language/Haskell/Lexer/Lex.hs:1178:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1194:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1178:9
+
+Language/Haskell/Lexer/Lex.hs:1197:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1197:9
+
+Language/Haskell/Lexer/Lex.hs:1210:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1213:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1214:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1213:9
+
+Language/Haskell/Lexer/Lex.hs:1215:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1219:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1215:9
+
+Language/Haskell/Lexer/Lex.hs:1222:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1223:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1222:9
+
+Language/Haskell/Lexer/Lex.hs:1224:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1240:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1224:9
+
+Language/Haskell/Lexer/Lex.hs:1243:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1244:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1243:9
+
+Language/Haskell/Lexer/Lex.hs:1245:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1261:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1245:9
+
+Language/Haskell/Lexer/Lex.hs:1264:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1265:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1264:9
+
+Language/Haskell/Lexer/Lex.hs:1266:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1278:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1266:9
+
+Language/Haskell/Lexer/Lex.hs:1281:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start82’
+
+Language/Haskell/Lexer/Lex.hs:1281:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1281:9
+
+Language/Haskell/Lexer/Lex.hs:1293:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1294:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1293:9
+
+Language/Haskell/Lexer/Lex.hs:1295:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1304:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1295:9
+
+Language/Haskell/Lexer/Lex.hs:1307:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start84’
+
+Language/Haskell/Lexer/Lex.hs:1307:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1307:9
+
+Language/Haskell/Lexer/Lex.hs:1321:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start85’
+
+Language/Haskell/Lexer/Lex.hs:1321:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1321:9
+
+Language/Haskell/Lexer/Lex.hs:1333:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1334:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1333:9
+
+Language/Haskell/Lexer/Lex.hs:1335:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1342:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1335:9
+
+Language/Haskell/Lexer/Lex.hs:1345:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1346:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1345:9
+
+Language/Haskell/Lexer/Lex.hs:1347:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1355:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1347:9
+
+Language/Haskell/Lexer/Lex.hs:1358:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start88’
+
+Language/Haskell/Lexer/Lex.hs:1358:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1358:9
+
+Language/Haskell/Lexer/Lex.hs:1369:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1370:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1369:9
+
+Language/Haskell/Lexer/Lex.hs:1371:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1377:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1371:9
+
+Language/Haskell/Lexer/Lex.hs:1380:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start90’
+
+Language/Haskell/Lexer/Lex.hs:1380:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1380:9
+
+Language/Haskell/Lexer/Lex.hs:1404:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1405:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1404:9
+
+Language/Haskell/Lexer/Lex.hs:1406:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1425:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1406:9
+
+Language/Haskell/Lexer/Lex.hs:1428:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1429:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1428:9
+
+Language/Haskell/Lexer/Lex.hs:1430:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1446:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1430:9
+
+Language/Haskell/Lexer/Lex.hs:1449:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1450:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1449:9
+
+Language/Haskell/Lexer/Lex.hs:1451:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1467:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1451:9
+
+Language/Haskell/Lexer/Lex.hs:1470:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1471:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1470:9
+
+Language/Haskell/Lexer/Lex.hs:1472:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1488:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1472:9
+
+Language/Haskell/Lexer/Lex.hs:1491:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1492:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1491:9
+
+Language/Haskell/Lexer/Lex.hs:1493:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1509:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1493:9
+
+Language/Haskell/Lexer/Lex.hs:1512:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1513:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1512:9
+
+Language/Haskell/Lexer/Lex.hs:1514:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1530:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1514:9
+
+Language/Haskell/Lexer/Lex.hs:1533:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1534:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1533:9
+
+Language/Haskell/Lexer/Lex.hs:1535:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1563:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1535:9
+
+Language/Haskell/Lexer/Lex.hs:1566:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start98’
+
+Language/Haskell/Lexer/Lex.hs:1566:28: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1566:9
+
+Language/Haskell/Lexer/Lex.hs:1628:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1629:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1628:9
+
+Language/Haskell/Lexer/Lex.hs:1630:9: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1646:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1630:9
+
+Language/Haskell/Lexer/Lex.hs:1649:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1650:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1649:10
+
+Language/Haskell/Lexer/Lex.hs:1651:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1667:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1651:10
+
+Language/Haskell/Lexer/Lex.hs:1670:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start101’
+
+Language/Haskell/Lexer/Lex.hs:1670:30: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1670:10
+
+Language/Haskell/Lexer/Lex.hs:1691:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start102’
+
+Language/Haskell/Lexer/Lex.hs:1691:30: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1691:10
+
+Language/Haskell/Lexer/Lex.hs:1712:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1713:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1712:10
+
+Language/Haskell/Lexer/Lex.hs:1714:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1730:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1714:10
+
+Language/Haskell/Lexer/Lex.hs:1733:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start104’
+
+Language/Haskell/Lexer/Lex.hs:1733:30: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1733:10
+
+Language/Haskell/Lexer/Lex.hs:1754:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1755:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1754:10
+
+Language/Haskell/Lexer/Lex.hs:1756:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1772:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1756:10
+
+Language/Haskell/Lexer/Lex.hs:1775:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start106’
+
+Language/Haskell/Lexer/Lex.hs:1775:30: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1775:10
+
+Language/Haskell/Lexer/Lex.hs:1796:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1797:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1796:10
+
+Language/Haskell/Lexer/Lex.hs:1798:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1814:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1798:10
+
+Language/Haskell/Lexer/Lex.hs:1817:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start108’
+
+Language/Haskell/Lexer/Lex.hs:1817:30: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1817:10
+
+Language/Haskell/Lexer/Lex.hs:1838:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1839:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1838:10
+
+Language/Haskell/Lexer/Lex.hs:1840:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1868:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1840:10
+
+Language/Haskell/Lexer/Lex.hs:1871:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start110’
+
+Language/Haskell/Lexer/Lex.hs:1871:30: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1871:10
+
+Language/Haskell/Lexer/Lex.hs:1904:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1905:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1904:10
+
+Language/Haskell/Lexer/Lex.hs:1906:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1934:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1906:10
+
+Language/Haskell/Lexer/Lex.hs:1937:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1938:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1937:10
+
+Language/Haskell/Lexer/Lex.hs:1939:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1969:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1939:10
+
+Language/Haskell/Lexer/Lex.hs:1972:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:1973:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1972:10
+
+Language/Haskell/Lexer/Lex.hs:1974:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2003:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:1974:10
+
+Language/Haskell/Lexer/Lex.hs:2006:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2007:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2006:10
+
+Language/Haskell/Lexer/Lex.hs:2008:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2037:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2008:10
+
+Language/Haskell/Lexer/Lex.hs:2040:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2041:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2040:10
+
+Language/Haskell/Lexer/Lex.hs:2042:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2071:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2042:10
+
+Language/Haskell/Lexer/Lex.hs:2074:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2075:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2074:10
+
+Language/Haskell/Lexer/Lex.hs:2076:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2105:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2076:10
+
+Language/Haskell/Lexer/Lex.hs:2108:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2109:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2108:10
+
+Language/Haskell/Lexer/Lex.hs:2110:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2139:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2110:10
+
+Language/Haskell/Lexer/Lex.hs:2142:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2143:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2142:10
+
+Language/Haskell/Lexer/Lex.hs:2144:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2175:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2144:10
+
+Language/Haskell/Lexer/Lex.hs:2178:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2179:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2178:10
+
+Language/Haskell/Lexer/Lex.hs:2180:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2209:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2180:10
+
+Language/Haskell/Lexer/Lex.hs:2212:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2213:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2212:10
+
+Language/Haskell/Lexer/Lex.hs:2214:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2243:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2214:10
+
+Language/Haskell/Lexer/Lex.hs:2246:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2247:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2246:10
+
+Language/Haskell/Lexer/Lex.hs:2248:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2278:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2248:10
+
+Language/Haskell/Lexer/Lex.hs:2281:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2282:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2281:10
+
+Language/Haskell/Lexer/Lex.hs:2283:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2312:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2283:10
+
+Language/Haskell/Lexer/Lex.hs:2315:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2316:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2315:10
+
+Language/Haskell/Lexer/Lex.hs:2317:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2346:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2317:10
+
+Language/Haskell/Lexer/Lex.hs:2349:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2350:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2349:10
+
+Language/Haskell/Lexer/Lex.hs:2351:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2380:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2351:10
+
+Language/Haskell/Lexer/Lex.hs:2383:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2384:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2383:10
+
+Language/Haskell/Lexer/Lex.hs:2385:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2414:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2385:10
+
+Language/Haskell/Lexer/Lex.hs:2417:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2418:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2417:10
+
+Language/Haskell/Lexer/Lex.hs:2419:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2448:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2419:10
+
+Language/Haskell/Lexer/Lex.hs:2451:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2452:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2451:10
+
+Language/Haskell/Lexer/Lex.hs:2453:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2482:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2453:10
+
+Language/Haskell/Lexer/Lex.hs:2485:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2486:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2485:10
+
+Language/Haskell/Lexer/Lex.hs:2487:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2516:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2487:10
+
+Language/Haskell/Lexer/Lex.hs:2519:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2520:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2519:10
+
+Language/Haskell/Lexer/Lex.hs:2521:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2550:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2521:10
+
+Language/Haskell/Lexer/Lex.hs:2553:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2554:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2553:10
+
+Language/Haskell/Lexer/Lex.hs:2555:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2584:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2555:10
+
+Language/Haskell/Lexer/Lex.hs:2587:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2588:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2587:10
+
+Language/Haskell/Lexer/Lex.hs:2589:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2618:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2589:10
+
+Language/Haskell/Lexer/Lex.hs:2621:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2622:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2621:10
+
+Language/Haskell/Lexer/Lex.hs:2623:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2654:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2623:10
+
+Language/Haskell/Lexer/Lex.hs:2657:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2658:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2657:10
+
+Language/Haskell/Lexer/Lex.hs:2659:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2688:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2659:10
+
+Language/Haskell/Lexer/Lex.hs:2691:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2692:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2691:10
+
+Language/Haskell/Lexer/Lex.hs:2693:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2722:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2693:10
+
+Language/Haskell/Lexer/Lex.hs:2725:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2726:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2725:10
+
+Language/Haskell/Lexer/Lex.hs:2727:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2756:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2727:10
+
+Language/Haskell/Lexer/Lex.hs:2759:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start136’
+
+Language/Haskell/Lexer/Lex.hs:2759:30: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2759:10
+
+Language/Haskell/Lexer/Lex.hs:2794:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2795:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2794:10
+
+Language/Haskell/Lexer/Lex.hs:2796:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2825:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2796:10
+
+Language/Haskell/Lexer/Lex.hs:2828:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2829:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2828:10
+
+Language/Haskell/Lexer/Lex.hs:2830:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2859:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2830:10
+
+Language/Haskell/Lexer/Lex.hs:2862:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘start139’
+
+Language/Haskell/Lexer/Lex.hs:2862:30: warning: [-Wname-shadowing]
+    This binding for ‘is’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2862:10
+
+Language/Haskell/Lexer/Lex.hs:2897:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2898:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2897:10
+
+Language/Haskell/Lexer/Lex.hs:2899:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2928:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2899:10
+
+Language/Haskell/Lexer/Lex.hs:2931:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2932:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2931:10
+
+Language/Haskell/Lexer/Lex.hs:2933:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2962:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2933:10
+
+Language/Haskell/Lexer/Lex.hs:2965:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2966:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2965:10
+
+Language/Haskell/Lexer/Lex.hs:2967:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:2996:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2967:10
+
+Language/Haskell/Lexer/Lex.hs:2999:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3000:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:2999:10
+
+Language/Haskell/Lexer/Lex.hs:3001:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3030:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3001:10
+
+Language/Haskell/Lexer/Lex.hs:3033:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3034:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3033:10
+
+Language/Haskell/Lexer/Lex.hs:3035:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3064:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3035:10
+
+Language/Haskell/Lexer/Lex.hs:3067:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3068:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3067:10
+
+Language/Haskell/Lexer/Lex.hs:3069:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3098:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3069:10
+
+Language/Haskell/Lexer/Lex.hs:3101:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3102:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3101:10
+
+Language/Haskell/Lexer/Lex.hs:3103:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3132:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3103:10
+
+Language/Haskell/Lexer/Lex.hs:3135:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3136:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3135:10
+
+Language/Haskell/Lexer/Lex.hs:3137:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3166:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3137:10
+
+Language/Haskell/Lexer/Lex.hs:3169:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3170:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3169:10
+
+Language/Haskell/Lexer/Lex.hs:3171:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3200:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3171:10
+
+Language/Haskell/Lexer/Lex.hs:3203:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3204:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3203:10
+
+Language/Haskell/Lexer/Lex.hs:3205:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3234:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3205:10
+
+Language/Haskell/Lexer/Lex.hs:3237:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3238:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3237:10
+
+Language/Haskell/Lexer/Lex.hs:3239:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3268:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3239:10
+
+Language/Haskell/Lexer/Lex.hs:3271:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3272:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3271:10
+
+Language/Haskell/Lexer/Lex.hs:3273:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3302:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3273:10
+
+Language/Haskell/Lexer/Lex.hs:3305:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3306:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3305:10
+
+Language/Haskell/Lexer/Lex.hs:3307:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3336:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3307:10
+
+Language/Haskell/Lexer/Lex.hs:3339:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3340:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3339:10
+
+Language/Haskell/Lexer/Lex.hs:3341:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3370:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3341:10
+
+Language/Haskell/Lexer/Lex.hs:3373:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3374:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3373:10
+
+Language/Haskell/Lexer/Lex.hs:3375:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3404:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3375:10
+
+Language/Haskell/Lexer/Lex.hs:3407:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3408:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3407:10
+
+Language/Haskell/Lexer/Lex.hs:3409:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3439:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3409:10
+
+Language/Haskell/Lexer/Lex.hs:3442:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3443:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3442:10
+
+Language/Haskell/Lexer/Lex.hs:3444:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3473:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3444:10
+
+Language/Haskell/Lexer/Lex.hs:3476:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3477:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3476:10
+
+Language/Haskell/Lexer/Lex.hs:3478:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3507:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3478:10
+
+Language/Haskell/Lexer/Lex.hs:3510:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3511:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3510:10
+
+Language/Haskell/Lexer/Lex.hs:3512:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3541:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3512:10
+
+Language/Haskell/Lexer/Lex.hs:3544:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3545:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3544:10
+
+Language/Haskell/Lexer/Lex.hs:3546:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3575:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3546:10
+
+Language/Haskell/Lexer/Lex.hs:3578:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3579:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3578:10
+
+Language/Haskell/Lexer/Lex.hs:3580:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3609:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3580:10
+
+Language/Haskell/Lexer/Lex.hs:3612:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3613:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3612:10
+
+Language/Haskell/Lexer/Lex.hs:3614:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3642:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3614:10
+
+Language/Haskell/Lexer/Lex.hs:3645:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3646:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3645:10
+
+Language/Haskell/Lexer/Lex.hs:3647:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3675:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3647:10
+
+Language/Haskell/Lexer/Lex.hs:3678:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3679:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3678:10
+
+Language/Haskell/Lexer/Lex.hs:3680:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3710:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3680:10
+
+Language/Haskell/Lexer/Lex.hs:3713:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3714:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3713:10
+
+Language/Haskell/Lexer/Lex.hs:3715:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3744:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3715:10
+
+Language/Haskell/Lexer/Lex.hs:3747:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3748:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3747:10
+
+Language/Haskell/Lexer/Lex.hs:3749:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3778:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3749:10
+
+Language/Haskell/Lexer/Lex.hs:3781:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3782:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3781:10
+
+Language/Haskell/Lexer/Lex.hs:3783:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3812:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3783:10
+
+Language/Haskell/Lexer/Lex.hs:3815:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3816:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3815:10
+
+Language/Haskell/Lexer/Lex.hs:3817:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3846:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3817:10
+
+Language/Haskell/Lexer/Lex.hs:3849:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3850:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3849:10
+
+Language/Haskell/Lexer/Lex.hs:3851:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3880:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3851:10
+
+Language/Haskell/Lexer/Lex.hs:3883:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3884:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3883:10
+
+Language/Haskell/Lexer/Lex.hs:3885:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3916:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3885:10
+
+Language/Haskell/Lexer/Lex.hs:3919:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3920:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3919:10
+
+Language/Haskell/Lexer/Lex.hs:3921:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3950:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3921:10
+
+Language/Haskell/Lexer/Lex.hs:3953:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3954:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3953:10
+
+Language/Haskell/Lexer/Lex.hs:3955:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3984:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3955:10
+
+Language/Haskell/Lexer/Lex.hs:3987:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:3988:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3987:10
+
+Language/Haskell/Lexer/Lex.hs:3989:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4019:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:3989:10
+
+Language/Haskell/Lexer/Lex.hs:4022:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4023:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4022:10
+
+Language/Haskell/Lexer/Lex.hs:4024:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4053:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4024:10
+
+Language/Haskell/Lexer/Lex.hs:4056:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4057:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4056:10
+
+Language/Haskell/Lexer/Lex.hs:4058:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4087:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4058:10
+
+Language/Haskell/Lexer/Lex.hs:4090:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4091:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4090:10
+
+Language/Haskell/Lexer/Lex.hs:4092:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4121:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4092:10
+
+Language/Haskell/Lexer/Lex.hs:4124:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4125:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4124:10
+
+Language/Haskell/Lexer/Lex.hs:4126:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4155:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4126:10
+
+Language/Haskell/Lexer/Lex.hs:4158:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4159:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4158:10
+
+Language/Haskell/Lexer/Lex.hs:4160:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4189:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4160:10
+
+Language/Haskell/Lexer/Lex.hs:4192:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4193:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4192:10
+
+Language/Haskell/Lexer/Lex.hs:4194:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4223:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4194:10
+
+Language/Haskell/Lexer/Lex.hs:4226:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4227:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4226:10
+
+Language/Haskell/Lexer/Lex.hs:4228:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4257:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4228:10
+
+Language/Haskell/Lexer/Lex.hs:4260:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4261:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4260:10
+
+Language/Haskell/Lexer/Lex.hs:4262:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4291:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4262:10
+
+Language/Haskell/Lexer/Lex.hs:4294:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4295:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4294:10
+
+Language/Haskell/Lexer/Lex.hs:4296:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4325:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4296:10
+
+Language/Haskell/Lexer/Lex.hs:4328:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4329:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4328:10
+
+Language/Haskell/Lexer/Lex.hs:4330:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4359:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4330:10
+
+Language/Haskell/Lexer/Lex.hs:4362:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4363:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4362:10
+
+Language/Haskell/Lexer/Lex.hs:4364:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4395:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4364:10
+
+Language/Haskell/Lexer/Lex.hs:4398:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4399:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4398:10
+
+Language/Haskell/Lexer/Lex.hs:4400:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4429:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4400:10
+
+Language/Haskell/Lexer/Lex.hs:4432:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4433:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4432:10
+
+Language/Haskell/Lexer/Lex.hs:4434:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4463:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4434:10
+
+Language/Haskell/Lexer/Lex.hs:4466:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4467:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4466:10
+
+Language/Haskell/Lexer/Lex.hs:4468:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4497:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4468:10
+
+Language/Haskell/Lexer/Lex.hs:4500:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4501:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4500:10
+
+Language/Haskell/Lexer/Lex.hs:4502:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4532:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4502:10
+
+Language/Haskell/Lexer/Lex.hs:4535:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4536:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4535:10
+
+Language/Haskell/Lexer/Lex.hs:4537:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4566:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4537:10
+
+Language/Haskell/Lexer/Lex.hs:4569:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4570:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4569:10
+
+Language/Haskell/Lexer/Lex.hs:4571:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4600:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4571:10
+
+Language/Haskell/Lexer/Lex.hs:4603:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4604:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4603:10
+
+Language/Haskell/Lexer/Lex.hs:4605:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4635:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4605:10
+
+Language/Haskell/Lexer/Lex.hs:4638:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4639:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4638:10
+
+Language/Haskell/Lexer/Lex.hs:4640:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4669:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4640:10
+
+Language/Haskell/Lexer/Lex.hs:4672:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4673:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4672:10
+
+Language/Haskell/Lexer/Lex.hs:4674:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4703:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4674:10
+
+Language/Haskell/Lexer/Lex.hs:4706:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4707:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4706:10
+
+Language/Haskell/Lexer/Lex.hs:4708:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4737:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4708:10
+
+Language/Haskell/Lexer/Lex.hs:4740:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4741:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4740:10
+
+Language/Haskell/Lexer/Lex.hs:4742:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4771:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4742:10
+
+Language/Haskell/Lexer/Lex.hs:4774:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4775:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4774:10
+
+Language/Haskell/Lexer/Lex.hs:4776:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4805:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4776:10
+
+Language/Haskell/Lexer/Lex.hs:4808:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4809:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4808:10
+
+Language/Haskell/Lexer/Lex.hs:4810:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4839:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4810:10
+
+Language/Haskell/Lexer/Lex.hs:4842:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4843:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4842:10
+
+Language/Haskell/Lexer/Lex.hs:4844:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4873:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4844:10
+
+Language/Haskell/Lexer/Lex.hs:4876:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4877:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4876:10
+
+Language/Haskell/Lexer/Lex.hs:4878:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4907:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4878:10
+
+Language/Haskell/Lexer/Lex.hs:4910:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4911:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4910:10
+
+Language/Haskell/Lexer/Lex.hs:4912:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4941:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4912:10
+
+Language/Haskell/Lexer/Lex.hs:4944:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4945:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4944:10
+
+Language/Haskell/Lexer/Lex.hs:4946:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4975:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4946:10
+
+Language/Haskell/Lexer/Lex.hs:4978:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:4979:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4978:10
+
+Language/Haskell/Lexer/Lex.hs:4980:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5009:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:4980:10
+
+Language/Haskell/Lexer/Lex.hs:5012:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5013:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5012:10
+
+Language/Haskell/Lexer/Lex.hs:5014:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5043:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5014:10
+
+Language/Haskell/Lexer/Lex.hs:5046:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5047:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5046:10
+
+Language/Haskell/Lexer/Lex.hs:5048:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5077:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5048:10
+
+Language/Haskell/Lexer/Lex.hs:5080:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5081:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5080:10
+
+Language/Haskell/Lexer/Lex.hs:5082:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5111:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5082:10
+
+Language/Haskell/Lexer/Lex.hs:5114:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5115:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5114:10
+
+Language/Haskell/Lexer/Lex.hs:5116:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5145:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5116:10
+
+Language/Haskell/Lexer/Lex.hs:5148:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5149:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5148:10
+
+Language/Haskell/Lexer/Lex.hs:5150:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5180:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5150:10
+
+Language/Haskell/Lexer/Lex.hs:5183:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5184:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5183:10
+
+Language/Haskell/Lexer/Lex.hs:5185:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5214:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5185:10
+
+Language/Haskell/Lexer/Lex.hs:5217:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5218:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5217:10
+
+Language/Haskell/Lexer/Lex.hs:5219:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5248:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5219:10
+
+Language/Haskell/Lexer/Lex.hs:5251:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5252:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5251:10
+
+Language/Haskell/Lexer/Lex.hs:5253:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5282:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5253:10
+
+Language/Haskell/Lexer/Lex.hs:5285:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5286:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5285:10
+
+Language/Haskell/Lexer/Lex.hs:5287:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5316:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5287:10
+
+Language/Haskell/Lexer/Lex.hs:5319:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5320:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5319:10
+
+Language/Haskell/Lexer/Lex.hs:5321:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5350:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5321:10
+
+Language/Haskell/Lexer/Lex.hs:5353:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5354:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5353:10
+
+Language/Haskell/Lexer/Lex.hs:5355:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5359:9: warning: [-Wname-shadowing]
+    This binding for ‘err’ shadows the existing binding
+      bound at Language/Haskell/Lexer/Lex.hs:5355:10
+
+Language/Haskell/Lexer/Lex.hs:5362:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+
+Language/Haskell/Lexer/Lex.hs:5365:10: warning: [-Wunused-matches]
+    Defined but not used: ‘err’
+[5 of 6] Compiling Language.Haskell.Lexer.Layout ( Language/Haskell/Lexer/Layout.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Language/Haskell/Lexer/Layout.o )
+
+Language/Haskell/Lexer/Layout.hs:24:23: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+[6 of 6] Compiling Language.Haskell.Lexer ( Language/Haskell/Lexer.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Language/Haskell/Lexer.o )
+Installing library in
+/Users/halpenny/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/haskell-lexer-1.0.1-KbrNzOgvOlP3fb0pmnXx0E
+Registering haskell-lexer-1.0.1...
