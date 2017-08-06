@@ -1,10 +1,9 @@
-fn1 = body_ 
+fn1 = body_
   []
-  [ div_ 
+  [ div_
     [ class_ "hello" ]
-    [ p_ 
+    [ p_
         []
         [ text "Hello, World!" ]
     ]
   ]
-
