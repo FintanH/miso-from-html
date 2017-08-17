@@ -13,11 +13,21 @@ build-type:          Simple
 cabal-version:       >=1.10
 extra-source-files:  README.md
 
+library
+  exposed-modules:   Miso.FromHTML
+  build-depends:     base >= 4.7 && < 5
+                   , hxt
+  hs-source-dirs:    src
+  if impl(ghc >= 8.0)
+    ghc-options: -Wall -Wno-redundant-constraints
+  else
+    ghc-options: -Wall
+
 executable miso-from-html
-  hs-source-dirs:      src
+  hs-source-dirs:      app
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
-                     , tagsoup
+                     , miso-from-html
                      , optparse-generic
   ghc-options: -Wall
