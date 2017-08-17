@@ -11,26 +11,23 @@ import Text.XML.HXT.DOM.QualifiedName (localPart)
 import Text.XML.HXT.Core ( withParseHTML
                          , withWarnings
                          , withRemoveWS
-                         , withIgnoreNoneXmlContents
                          , getChildren
                          , readString
                          , runX
-                         , yes, no
+                         , yes
                          , (>>>))
 
-import Debug.Trace
-
-toMiso :: String -> IO [String]
-toMiso input = do
+toMiso' :: (NTree XNode -> String) -> String -> IO [String]
+toMiso' show_ input = do
   let doc = readString [withParseHTML yes, withRemoveWS yes, withWarnings yes] input
   children <- runX $ doc >>> getChildren
-  pure $ map showMiso children
+  pure $ map show_ children
+
+toMiso :: String -> IO [String]
+toMiso = toMiso' showMiso
 
 toMisoIndent :: Int -> String -> IO [String]
-toMisoIndent indent input = do
-  let doc = readString [withParseHTML yes, withRemoveWS yes, withWarnings yes, withIgnoreNoneXmlContents yes] input
-  children <- runX $ doc >>> getChildren
-  pure $ map (showMisoIndent indent) children
+toMisoIndent indent = toMiso' (showMisoIndent indent)
 
 toFunctionName :: QName -> String
 toFunctionName name = localPart name ++ "_ "
